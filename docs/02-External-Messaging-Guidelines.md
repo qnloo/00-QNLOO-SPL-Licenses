@@ -1,8 +1,10 @@
 # 对外宣讲统一话术 / External Messaging Guidelines
 
-**版本 / Version**: v1.0
+**版本 / Version**: v1.1
 
 **生效日期 / Effective Date**: 2026年6月30日
+
+**版本修订日期 / Version Revision Date**: 2026年7月4日
 
 **制定主体 / Issuing Entity**: 厦门千年鹿文化科技有限公司 (Xiamen QNLOO Culture & Technology Co., Ltd.)
 
@@ -140,9 +142,13 @@ This project adopts the **QNLOO-SPL Sovereign Public License Paradigm**; compute
 
 ### Q1：QNLOO-SPL 是开源协议吗？ / Is QNLOO-SPL an open-source license?
 
-QNLOO-SPL 不属于传统意义上的开源协议，它是一套源码开放的主权商事价值分配范式。其中计算机源代码部分遵循 Apache License 2.0 开源协议，保持完全开放；协议文本、专利、商业运营等部分则适用商事许可规则，实现价值合理分配。
+QNLOO-SPL 不属于传统意义上的开源协议，它属于全新的**主权价值协议（Sovereign Value Protocol）**品类，是一套源码开放的主权商事价值分配范式。传统开源协议核心解决代码的自由流通与协作效率问题，而主权价值协议则聚焦于生态治理与价值主权对齐。
 
-QNLOO-SPL is not a traditional open-source license. It is a sovereign commercial value distribution framework with open source code. The computer source code part follows the Apache License 2.0 and remains fully open; parts such as protocol text, patents and commercial operations are subject to commercial licensing rules to realize reasonable value distribution.
+在资产配置上，本协议支持双轨架构：其计算机源代码部分可选宽松开源（如 Apache License 2.0）以促进技术传播，亦可选择完全闭源专有以保护核心商业壁垒；无论源码形式如何，其商用运营行为、协议文本及创作资产，均统一接受主权商事许可规则管辖，实现创作者价值的公平分润。
+
+QNLOO-SPL is not a traditional open-source license. It belongs to the brand-new category of **Sovereign Value Protocol**, serving as a sovereign commercial value distribution framework with open source code. While traditional open-source licenses focus on free circulation and collaboration efficiency of code, sovereign value protocols focus on ecological governance and value sovereignty.
+
+In terms of asset configuration, this agreement supports a dual-track architecture: its computer source code portion may opt for permissive open-source (such as Apache License 2.0) to promote technological dissemination, or select strictly proprietary closed-source to protect core commercial barriers; regardless of the source code setup, its commercial operations, texts, and creative assets are uniformly governed by sovereign commercial licensing rules to ensure fair revenue sharing for creators.
 
 ### Q2：它和 BSL、SSPL 等公平代码协议有什么区别？ / What is the difference between it and fair-code licenses such as BSL and SSPL?
 
@@ -235,8 +241,7 @@ The following core terms shall be strictly unified and shall not be replaced arb
 | 双资产分层许可隔离架构 | Dual-Asset Tiered Licensing Isolation Architecture |
 | 阶梯式营收分层授权体系 | Progressive Revenue-Based Tiered Authorization System |
 | 主权法定数字货币结算机制 | Sovereign Statutory CBDC Settlement Mechanism |
-| 分布式社会化取证 | Distributed Socialized Evidence Collection |
-| 吹哨人信托维权闭环 | Qui Tam Fiduciary Enforcement Loop |
+| 分布式社会化取证与梯度化吹哨悬赏分成 | Distributed Socialized Evidence Collection & Tiered Qui Tam Bounty Sharing |
 | 梯度化公允清算违约金规则 | Tiered and Fairly Estimated Liquidated Damages Rules |
 | 跨法域司法适配 | Cross-Jurisdictional Judicial Adaptation |
 

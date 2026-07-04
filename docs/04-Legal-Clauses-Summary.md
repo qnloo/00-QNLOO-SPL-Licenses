@@ -1,20 +1,22 @@
 # 法律条款简要释义 / Legal Clauses Summary
 
-**版本 / Version**: v1.0
+**当前适用版本 / Applicable Version**: QNLOO-SPL v1.1
 
 **生效日期 / Effective Date**: 2026年6月30日
+
+**版本修订日期 / Version Revision Date**: 2026年7月4日
 
 **制定主体 / Issuing Entity**: 厦门千年鹿文化科技有限公司 (Xiamen QNLOO Culture & Technology Co., Ltd.)
 
 ---
 
-本文件为 QNLOO-SPL v1.0 核心条款的通俗化释义，面向非法律专业背景的开发者、企业运营者与普通使用者，旨在帮助快速理解许可规则的核心含义与边界。**本文件仅作理解参考，不构成法律意见，不具备正式法律效力，所有权利义务以 LICENSE 主许可法律文本为准。**
+本文件为 QNLOO-SPL v1.1 核心条款的通俗化白话释义，面向非法律专业背景的开发者、企业运营者与生态使用者，旨在消除理解摩擦，帮助快速界定许可边界。**本文件仅作合规理解参考，不构成正式法律意见，不具备直接诉讼效力。所有权利、义务与清算责任，一律以主许可法律文本（LICENSE-QNLOO-SPL）及相关专利文书的字面释义为准。**
 
-This document provides a plain-language interpretation of the core clauses of QNLOO-SPL v1.0, intended for developers, enterprise operators and general users without a legal background, to help quickly understand the core meaning and boundaries of the license rules. **This document is for reference only, does not constitute legal advice, and has no formal legal effect. All rights and obligations shall be subject to the legal text of the LICENSE master license.**
+This document provides a plain-language interpretation of the core clauses of QNLOO-SPL v1.1, intended for developers, enterprise operators and general users without a legal background, to help quickly understand the core meaning and boundaries of the license rules. **This document is for reference only, does not constitute legal advice, and has no formal legal effect. All rights and obligations shall be subject to the legal text of the LICENSE-QNLOO-SPL master license and related patent documents.**
 
 ---
 
-## 1. 分级授权规则释义 / Interpretation of Tiered Authorization Rules
+## 1. 分级授权规则释义 / 1. Interpretation of Tiered Authorization Rules
 
 *对应主许可第一部分：分级授权与豁免规则*
 
@@ -47,11 +49,11 @@ Plain meaning: For compliant enterprises with annual revenue exceeding RMB 1 mil
 
 Billing base: Only for the revenue of business lines using this system, not the enterprise's total revenue; subject to public financial statements or tax filing data.
 
-### 1.4 游离生态主体计费 / Billing for Off-Ecosystem Entities
+### 1.4 外部游离主体计费 / Off-Chain Non-Compliant Charges
 
-简单理解：商用但不接入合规体系、不标注身份的主体，不再享受100万免费额度，按全部营收的0.6%计费，且按企业整体合并营收计算。
+简单理解：商用但不接入合规体系、不标注身份的主体，不再享受 100 万免费额度，计费标准自动调整为按全主体合并报表口径下总年营收的 0.6% 持续核算。
 
-Plain meaning: Entities that operate commercially but do not access the compliance system or label their status lose the RMB 1 million exemption, and are billed at 0.6% of total revenue, calculated on the enterprise's consolidated revenue.
+Plain meaning: Commercial entities that conduct operations without completing ecological compliance integration lose the RMB 1,000,000 exemption, and their fee calculation standard shall be automatically adjusted to 0.6% of their total annual revenue, calculated continuously based on the consolidated financial statements of the entire entity.
 
 设计目的：鼓励合规并网，通过差异化计费引导商业主体进入透明、可追溯的生态体系。
 
@@ -65,9 +67,9 @@ Plain meaning: If a single product line generates annual revenue exceeding RMB 1
 
 ### 1.6 法定结算通道 / Statutory Settlement Channel
 
-简单理解：所有授权费、违约金的官方结算渠道是数字人民币智能合约；境外企业有三年过渡期，过渡期内可以用跨境对公支付，期满后全部走数字人民币。
+简单理解：所有授权费、违约金的官方结算渠道是数字人民币智能合约。境外企业有三年过渡期，过渡期内正常授权费可以用跨境对公支付；但因主观恶意逃逸产生的清算违约金，0 缓冲，必须无条件走数字人民币智能合约完成结算。
 
-Plain meaning: The official settlement channel for all authorization fees and liquidated damages is the e-CNY smart contract; overseas enterprises have a three-year transition period, during which cross-border corporate payment is acceptable, and after expiration all settlement must go through e-CNY.
+Plain meaning: The sole legally binding benchmark settlement channel for all funds shall be the e-CNY smart contract. Offshore compliant entities enjoy a 3-year global transition period for regular fees via corporate cross-border channels; however, liquidated damages arising from subjective bad-faith evasion have zero buffer and must unconditionally and exclusively be settled via e-CNY smart contracts, and the cross-border corporate payment buffer shall not apply.
 
 特别说明：恶意侵权产生的违约金，过渡期内也必须走数字人民币结算，不享受缓冲。
 
@@ -81,33 +83,25 @@ Special note: Liquidated damages from malicious infringement must be settled via
 
 ### 2.1 跨法域属地适配  / Cross-Jurisdictional Territorial Adaptation
 
-简单理解：这套规则在不同国家会自动适配当地法律：美国用等同原则和长臂管辖，欧盟对齐GDPR数据规则，大陆法系国家自动转化为符合当地要求的维权授权。
+简单理解：这套规则在不同国家会自动适配当地法律：美国用等同原则和约定损害赔偿规则，欧盟对齐GDPR数据规则，大陆法系国家自动转化为符合当地要求的维权授权。
 
-Plain meaning: This set of rules automatically adapts to local laws in different countries: the US uses the Doctrine of Equivalents and long-arm jurisdiction; the EU aligns with GDPR data rules; civil law countries automatically convert to enforcement authorization compliant with local requirements.
+Plain meaning: This set of rules automatically adapts to local laws in different countries: the US uses the Doctrine of Equivalents and agreed liquidated damages rules; the EU aligns with GDPR data rules; civil law countries automatically convert to enforcement authorization compliant with local requirements.
 
 核心作用：避免“在一个国家有效、在另一个国家无效”的问题，保障全球范围内的可执行性。
 
 Core function: Avoid the problem of "valid in one country, invalid in another", and ensure enforceability worldwide.
 
-### 2.2 自动触发式诉讼信托 / Automatically Triggered Litigation Trust
+### 2.2 分布式社会化取证与司法属地双轨制 / Distributed Standing & Qui Tam Standing Rules
 
-简单理解：只要有人侵权，就自动成立一个专门的法律维权信托，第三方可以代表权利人去起诉；在不认可事前信托的国家，会自动变成债权转让或独家维权授权，保证能起诉。
+简单理解：为了彻底规避部分大陆法系国家对“事前诉讼信托/代为诉讼”的合规限制，v1.1版本升级为属地双轨制维权：在美国司法辖区内，捕获证据的吹哨人自动取得共同原告资格；在中国大陆、欧盟等全球其余法域，诉讼资格专属资产持有主体或其合法书面授权的律所，吹哨人匿名提供哈希铁证并领取赏金，无需暴露肉身承担法律风险。
 
-Plain meaning: When infringement occurs, a dedicated legal enforcement trust is automatically established, and third parties can sue on behalf of the rights holder; in countries that do not recognize pre-litigation trusts, it automatically converts to assignment of claims or exclusive enforcement authorization to ensure standing to sue.
+Plain meaning: To completely circumvent local legal restrictions on "pre-litigation trusts" or "maintenance" in civil law jurisdictions, the v1.1 framework upgrades to a dual-track enforcement system: within judicial districts of the United States, Qui Tam Relators automatically obtain co-plaintiff standing; in Chinese mainland, the European Union, and all other global jurisdictions, exclusive litigation standing is reserved solely for the asset owner or its lawfully authorized legal counsel in writing, allowing relators to provide evidence anonymously and claim bounties without personal legal exposure.
 
-### 2.3 吹哨人维权机制 / Whistleblower Enforcement Mechanism
+### 2.3 赏金权利预先让渡机制 / Pre-Assignment of Bounty Rights
 
-简单理解：全球任何人都可以用官方开源的取证工具，被动抓取公开的侵权证据并存证；成功维权后，可以拿到赔偿款的40%作为奖励。
+简单理解：只要发现有人恶意侵权逃逸，全球任何人均可通过开源“主权取证工具包”捕获特征指纹（如 `0xABCD` 窗口特征字）并向分布式账本存证。所有权人特此作出不可撤销的公开民事处分安排：将侵权赔偿款中超出 0.6% 基准费率的所有溢价收益，全额预先让渡给首位举证成功的吹哨人，作为其维权激励。
 
-Plain meaning: Anyone worldwide can use the official open-source forensic tool to passively capture public infringement evidence and record it on-chain; after successful enforcement, they can receive 40% of the compensation as a reward.
-
-取证规则：只能被动分析公开的网络流量，不能主动入侵、不能窃取隐私，严格符合各国网络安全法律。
-
-Evidence collection rule: Only passive analysis of public network traffic is allowed, no active hacking, no privacy theft, strictly complying with cybersecurity laws of all countries.
-
-诉讼资格：美国境内取证主体可以当共同原告；其他国家只有权利主体或授权律所才有起诉资格，吹哨人拿分成但不出庭。
-
-Litigation standing: In the US, evidence collectors can act as co-plaintiffs; in other countries, only the rights holder or authorized law firms have standing to sue, and whistleblowers receive shares but do not appear in court.
+Plain meaning: Upon discovering bad-faith infringement, any third party worldwide can utilize the open-source Sovereign Forensic Toolkit to capture fingerprints (including but not limited to the 0xABCD feature flag) and record them on the distributed ledger. The asset owner hereby makes an irrevocable right assignment arrangement: the premium portion of infringement breach compensation exceeding the 0.6% benchmark authorization fee shall be fully and previously assigned to the Qui Tam Relator who successfully provides evidence as their enforcement incentive.
 
 ---
 
@@ -115,25 +109,21 @@ Litigation standing: In the US, evidence collectors can act as co-plaintiffs; in
 
 *对应主许可第三部分：损害赔偿与合规要求*
 
-### 3.1 机器代偿结算 / Machine-based Compensation Settlement
+### 3.1 赏金分付与权责边界 / Separate Payment of Bounty and Liability Boundaries
 
-简单理解：官司打赢或调解成功后，赔偿款到账自动分账，40%直接打给吹哨人；存证的时候可以匿名，领钱的时候要实名，符合反洗钱要求。
+简单理解：诉讼或调解成功后，对应 0.6% 年营收的基准费部分作为补缴授权费直接支付给规则制定者；剩余溢价补偿部分，直接分账支付给举证成功的吹哨人作为悬赏激励。所有取证成本、诉讼费、律师费等全部由吹哨人从所得赏金中自行覆盖，规则制定者不承担任何垫付或担保责任。
 
-Plain meaning: After a successful lawsuit or mediation, compensation is automatically split upon receipt, with 40% sent directly to the whistleblower; you can be anonymous when storing evidence, but must use real identity when claiming rewards, complying with AML requirements.
+Plain meaning: Upon successful litigation, mediation, or settlement, the portion corresponding to 0.6% of annual revenue as the benchmark fee shall be paid directly by the infringing entity to the Rule-Maker as overdue system authorization fees; the remaining premium compensation portion shall be paid directly to the successful Qui Tam Relator as an incentive bounty. All enforcement-related expenses, including evidence collection costs and legal fees, shall be borne solely by the relator and covered from the bounty received, and the Rule-Maker assumes no liability or obligation for advance payments.
 
-### 3.2 梯度化清算违约金 / Graded Liquidated Damages
+### 3.2 不真诚违约梯度与1.66倍数学熔断 / Non-Sincere Breach & The 1.66x Model
 
-简单理解：侵权分两种情况，处罚不一样：
+简单理解：违约侵权按主观程度分为两档：一是无意疏漏，按单年度 0.8% 费率清算，不追加三年连续条款；二是主观恶意逃逸，适用 1.0% 年营收费率，强制连续清算 3 个财务年度。
+在恶意的三年清算中，仅首年度的 0.4% 溢价作为悬赏发放给举证极客，后续两年的 0.4% 溢价由规则制定者依法收回，专项转化成长线诉讼博弈的“主权防卫基金”。三年总计赔偿（3%）相比正常合规并网时三年应付的授权费（每年0.6%，三年合计1.8%）仅为 1.66 倍，定性为对全量资产组合受损的合理估算之清算违约金，绝非惩罚性罚金，以排除各主权国法院予以司法裁量酌减之抗辩。
 
-- 不小心、忘了合规，没有故意藏证据：按正常费率补一年的费用，没有额外罚款；
+Plain meaning: Breach is categorized into two tiers based on subjective intent: (a) inadvertent omissions, applying a single-year 0.8% rate without the three-year consecutive clause; (b) subjective bad-faith evasion, applying a 1.0% annual revenue fee rate mandatorily and continuously enforced for three fiscal years.
+Under the three-year bad-faith liquidation, only the 0.4% premium of the first year constitutes the Qui Tam bounty incentive for the relator; the 0.4% premiums of the subsequent two fiscal years are lawfully reclaimed by the Rule-Maker as additional compensation and dedicated as a standing sovereign defense fund. The total three-year compensation (3%) vs. the normal authorization fees that would have been paid over three years of compliant operation (0.6% annually, 1.8% total) is exactly 1.66x, legally characterized as reasonably estimated liquidated damages for the complete asset portfolio rather than punitive damages, thereby precluding defenses in sovereign courts that seek judicial reduction on the grounds of its punitive nature.
 
-- 故意藏水印、改代码抄逻辑、长期商用不付费：按1%年营收罚，连续罚3年。
-
-Plain meaning: There are two types of infringement with different penalties:
-
-- Inadvertent, forgot compliance, no intentional concealment: Pay one year of fees at the normal rate, no additional penalty;
-
-- Intentional concealment of watermarks, code forking, long-term commercial use without payment: Penalty at 1% of annual revenue, for 3 consecutive years.
+---
 
 ### 3.3 公允补偿定性 / Fair Compensation Qualification
 
@@ -166,18 +156,11 @@ Plain meaning: Code and content are governed separately:
 - Source code: Free to use, modify and distribute, just comply with Apache 2.0;
 - Whitepapers, patents, music, business logic, operation rules: Governed by QNLOO-SPL, commercial use requires payment according to rules.
 
-### 4.2 效力优先级 / Priority of Effect
+### 4.2 纯商业闭源项目特别通道 / Proprietary Closed-Source Passage
 
-简单理解：
+简单理解：本范式完全支持纯商业闭源项目形态。如果项目底层源代码是绝对商业机密，只要从仓库根目录中彻底删除 `LICENSE-APACHE` 文件，并在主 `LICENSE` 路由文件中将源码明确声明为完全闭源专有、不授予任何开源许可，其代码即可继续保持绝对封闭，而上层资产和生态依然完美适配 SPL 的主权保护。
 
-- 普通代码相关的事：听Apache 2.0的；
-- 专利、商业运营、违约赔偿相关的事：听QNLOO-SPL和PATENTS文件的，优先级最高；
-- 中英文有歧义的，QNLOO-SPL以中文为准，Apache 2.0以英文为准。
-
-Plain meaning:
-- Matters related to ordinary code: Subject to Apache 2.0;
-- Matters related to patents, commercial operation and default compensation: Subject to QNLOO-SPL and the PATENTS file, with the highest priority;
-- In case of ambiguity between Chinese and English: QNLOO-SPL is subject to Chinese, Apache 2.0 is subject to English.
+Plain meaning: This paradigm fully supports strictly proprietary closed-source project configurations. If the underlying source code is a core commercial secret, adopters must completely remove the `LICENSE-APACHE` file from the repository and explicitly declare code as "strictly proprietary closed-source; no open-source license granted" in the master `LICENSE` routing file, keeping the core code perfectly locked while the upper-layer assets and ecosystem remain under SPL sovereign protection.
 
 ### 4.3 属地分割生效 / Jurisdictional Severability
 

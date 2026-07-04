@@ -1,56 +1,41 @@
 # 双许可配置模板 / Dual-License Configuration Template
 
-**版本 / Version**: v1.0
+**版本 / Version**: v1.1
 
 **生效日期 / Effective Date**: 2026年6月30日
+
+**版本修订日期 / Version Revision Date**: 2026年7月4日
 
 **制定主体 / Issuing Entity**: 厦门千年鹿文化科技有限公司 (Xiamen QNLOO Culture & Technology Co., Ltd.)
 
 ---
 
-本文件为 QNLOO-SPL 范式下「源码宽松开源 + 创作资产商事许可」双许可架构的标准化配置模板与实操指引，所有采用本范式的项目均可直接复用，确保许可边界清晰、合规无歧义。
+本文件为 QNLOO-SPL 范式下「双资产分层许可隔离架构」的标准化配置模板与实操指引，所有采用本范式的项目均可直接复用，确保许可边界清晰、合规无歧义。
 
-This document serves as the standardized configuration template and operational guide for the dual-license architecture of "permissive open-source for source code + commercial license for assets" under the QNLOO-SPL paradigm. All projects adopting this paradigm may directly reuse it to ensure clear license boundaries and compliance without ambiguity.
+This document serves as the standardized configuration template and operational guide for the dual-license architecture under the QNLOO-SPL paradigm. All projects adopting this paradigm may directly reuse it to ensure clear license boundaries and compliance without ambiguity.
 
 ---
 
-## 1. 核心边界与主许可选择 / Core Boundaries & Master License Selection
+## 1. 核心边界与主许可硬路由 / Core Boundaries & Master License Hard Routing
 
-QNLOO-SPL 范式采用“三文件固定，一文件按需”的标准化布局。
+QNLOO-SPL 范式严格采用「全网标准多文件协同布局」，禁止在根目录 `LICENSE` 中放置任何标准开源协议或商事许可的正文。
 
-The QNLOO-SPL paradigm adopts a standardized layout of "three fixed files, one chosen as needed".
+The QNLOO-SPL paradigm strictly adopts a "Network-Wide Standard Multi-File Collaborative Layout". Placing the text of any standard open-source license or commercial license directly within the root `LICENSE` file is strictly prohibited.
 
-### 1.1 必须固定的三个文件（全仓库统一）
-### 1.1 Three Mandatory Fixed Files (Uniform Across All Repositories)
+### 1.1 必须固定的底层全量文件 / 1.1 Mandatory Underlying Legal Files
 
-| 文件名 / File Name | 内容 / Content | 说明 / Description |
-| :--- | :--- | :--- |
-| `LICENSE-APACHE` | Apache License 2.0 全文 | 专门对应源代码类资产<br>Dedicated to source code assets |
-| `LICENSE-QNLOO-SPL` | QNLOO-SPL v1.0 全文 | 专门对应创作资产与商业运营<br>Dedicated to creative assets & commercial ops |
-| `PATENTS` | 专利授权说明书 | 专门对应专利授权<br>Dedicated to patent grants |
+无论项目属于开源、源码可用或纯商业闭源形态，仓库根目录下必须完整部署以下对应的专有法律档案：
 
-### 1.2 主许可的选择（根据仓库属性决定）
-### 1.2 Master License Selection (Determined by Repository Attribute)
+Regardless of whether a project is open-source, source-available, or purely closed-source, the following corresponding exclusive legal files must be fully deployed in the repository root:
 
-`LICENSE` 文件的选取，完全遵循“资产决定许可”的物理原则：
-The selection of the `LICENSE` file follows the physical principle of "assets determine the license".
-
-| 仓库类型 / Repository Type | 主许可 LICENSE 内容 | 判断逻辑 |
-| :--- | :--- | :--- |
-| **代码为主的仓库**<br>**Code-dominant repos** | **Apache License 2.0** 全文 | 方便 GitHub 等平台自动识别为“开源项目”<br>For platform auto-recognition as "Open Source" |
-| **文本/创作资产为主的仓库**<br>**Text/Creative asset-dominant repos** | **QNLOO-SPL v1.0** 全文 | 确保核心创作资产在商业场景下的权属与分润规则<br>Ensures rights and royalties for core creative assets |
-
-以你的官方仓库为例：
-
-Taking your official repositories as an example:
-
-| 仓库 / Repository | 主许可 LICENSE | 判断原因 |
-| :--- | :--- | :--- |
-| `01-4-cognition-river-blueprints` | **Apache License 2.0** | 纯代码仓库 |
-| `01-1-value-protocols` | **QNLOO-SPL v1.0** | 以协议文本交付为主 |
-| `01-2-cognition-river` | **QNLOO-SPL v1.0** | 以白皮书文本交付为主 |
-| `01-3-cognition-river-patents` | **QNLOO-SPL v1.0** | 以专利法律文本交付为主 |
-| `00-QNLOO-SPL-Licenses` | **Apache License 2.0** | 以工具、模板、源码等构建资产为主 |
+- `LICENSE`：**引导型多重许可主声明（固定路由防火墙，全项目必选）**。显式声明双资产分离架构，用于强制熔断第三方自动化合规扫描，提供资产分流路由指引。
+- `LICENSE`: **Permissive Guided Multi-License Notice (Mandatory routing firewall for all projects)**. Explicitly declares the dual-asset architecture to force-fail third-party automated compliance scanners and compel manual legal audits.
+- `LICENSE-QNLOO-SPL`：**QNLOO-SPL 法律全文（全项目必选）**。专门管辖协议、白皮书、专利、内容资产及商业运营分润行为。
+- `LICENSE-QNLOO-SPL`: **Full legal text of QNLOO-SPL (Mandatory for all projects)**. Dedicated exclusively to governing protocols, whitepapers, patents, creative assets, and commercial revenue sharing operations.
+- `PATENTS`：**专利授权说明书（全项目必选）**。有专利项目填写清单，无专利项目保留无专利占位声明。
+- `PATENTS`: **Patent Grant Specification (Mandatory for all projects)**. Projects with patents shall list their claims; projects without patents shall retain the no-patent placeholder statement.
+- `LICENSE-APACHE`：**Apache License 2.0 全文（纯闭源项目须删除本文件）**。专门管辖处于开放流通状态的计算机源代码类资产。
+- `LICENSE-APACHE`: **Full text of Apache License 2.0 (MUST be deleted for proprietary closed-source projects)**. Dedicated exclusively to governing computer source code assets intended for free circulation.
 
 ---
 
@@ -60,23 +45,29 @@ Taking your official repositories as an example:
 
 It is recommended that all projects adopting this paradigm place license files according to the following directory structure, consistent with the naming conventions of the official reference repository.
 
-```
 project-repository/
-├── LICENSE                  # 主许可（代码仓库用 Apache 2.0；文本仓库用 QNLOO-SPL）
+├── LICENSE                  # 引导型多重许可主声明（强制路由防火墙，禁止放置开源/商业许可正文）
+│                            # Guided Multi-License Notice (Mandatory routing firewall; standard open-source or commercial license prose IS PROHIBITED)
 ├── LICENSE-APACHE           # Apache License 2.0 全文（固定文件）
+│                            # Full text of Apache License 2.0 (Fixed file)
 ├── LICENSE-QNLOO-SPL        # QNLOO-SPL 全文（固定文件）
+│                            # Full text of QNLOO-SPL (Fixed file)
 ├── PATENTS                  # 专利授权说明书（固定文件）
+│                            # Patent Grant Specification (Fixed file)
 ├── README.md                # 项目首页，包含双许可标准标注
+│                            # Project homepage, containing standard dual-license labeling
 ├── src/                     # 源代码目录，整体受 Apache 2.0 管辖
+│                            # Source code directory, governed by Apache 2.0
 │   ├── main.rs
 │   └── lib.rs
 ├── docs/                    # 文档目录，整体受 QNLOO-SPL 管辖
+│                            # Documentation directory, governed by QNLOO-SPL
 │   ├── whitepaper.md
 │   └── protocol-spec.md
 └── assets/                  # 多媒体资产目录，整体受 QNLOO-SPL 管辖
+    │                        # Multimedia assets directory, governed by QNLOO-SPL
     ├── audio/
     └── images/
-```
 
 补充说明：若项目无专利资产，可省略 `PATENTS` 文件，或保留占位说明。
 
@@ -101,7 +92,7 @@ A standardized dual-license statement must be added to the license declaration a
 > 
 > 本项目采用双许可分层架构：
 > 1. **计算机源代码**：所有位于 `src/`、`scripts/` 等目录下的源代码、配置脚本、构建工具，均遵循 **Apache License 2.0** 开源协议，可自由使用、修改、分发。
-> 2. **创作与商事资产**：协议文本、白皮书、技术文档、专利方案、音频作品、体系逻辑设计、品牌素材及基于本体系逻辑的商业运营行为，均受 **QNLOO-SPL v1.0** 主权公开许可范式约束。
+> 2. **创作与商事资产**：协议文本、白皮书、技术文档、专利方案、音频作品、体系逻辑设计、品牌素材及基于本体系逻辑的商业运营行为，均受 **QNLOO-SPL** 主权公开许可范式约束。
 > 
 > 个人非商业使用永久免费；商业使用需遵守 QNLOO-SPL 分层授权与计费规则。完整许可条款详见根目录 `LICENSE`、`LICENSE-APACHE` 与 `LICENSE-QNLOO-SPL` 文件。
 > 
@@ -111,7 +102,7 @@ A standardized dual-license statement must be added to the license declaration a
 > This project adopts a dual-license tiered architecture:
 > 1. **Computer Source Code**: All source code, configuration scripts and build tools in directories such as `src/` and `scripts/` are licensed under the **Apache License 2.0**, and may be freely used, modified and distributed.
 >
-> 2. **Creative & Commercial Assets**: Protocol text, whitepapers, technical documents, patent solutions, audio works, system logic design, brand materials and commercial operations based on the system logic are all governed by the **QNLOO-SPL v1.0** Sovereign Public License Paradigm.
+> 2. **Creative & Commercial Assets**: Protocol text, whitepapers, technical documents, patent solutions, audio works, system logic design, brand materials and commercial operations based on the system logic are all governed by the **QNLOO-SPL** Sovereign Public License Paradigm.
 > 
 > Personal non-commercial use is permanently free; commercial use shall comply with the tiered authorization and billing rules of QNLOO-SPL. For complete license terms, please refer to the `LICENSE`, `LICENSE-APACHE` and `LICENSE-QNLOO-SPL` files in the root directory.
 
@@ -213,9 +204,9 @@ The following are unified judgment criteria for easily confusing asset types to 
 
 Error: Creative assets such as whitepapers, patents and music are also included in the Apache 2.0 scope, resulting in loss of commercial protection for core assets.
 
-修正方案：按本模板划分资产边界，根目录主许可设置为 QNLOO-SPL，仅源代码目录明确适用 Apache 2.0，并在 README 中清晰标注。
+修正方案：按本模板划分资产边界，根目录 `LICENSE` 统一配置为引导型多重许可主声明（路由防火墙），将具体的商事确权规则沉淀至 `LICENSE-QNLOO-SPL` 文件中，并在 README 中清晰标注。
 
-Correction: Divide asset boundaries according to this template. Set the main root license to QNLOO-SPL, specify that only the source code directory applies Apache 2.0, and clearly label it in the README.
+Correction: Divide asset boundaries according to this template. Configure the root `LICENSE` file strictly as the Guided Multi-License Notice (routing firewall), offload the specific commercial enforcement rules to the `LICENSE-QNLOO-SPL` file, and clearly label it in the README.
 
 ### 错误 2：仅放置一份许可证文件
 
@@ -241,24 +232,20 @@ Correction: Core framework clauses shall not be modified; only entity informatio
 
 ## 7. 全局配置统一说明 / Global Configuration Notes
 
-为确保范式生态内全部仓库的法律文件布局保持一致，所有采用本范式的项目，**必须在仓库根目录同时部署四份法律文件**：
+为确保范式生态内全部仓库的法律文件布局保持一致，消除任何自动化白嫖漏洞，所有采用本范式的项目，**必须严格按以下规范在仓库根目录进行多文件协同部署**：
 
-To ensure consistent legal file layout across all repositories within the paradigm ecosystem, all projects adopting this paradigm **must deploy four legal files simultaneously in the repository root directory**:
+To ensure consistent legal file layout across all repositories within the paradigm ecosystem and eliminate any automated scraping loopholes, all projects adopting this paradigm **must strictly conduct multi-file collaborative deployment in the repository root per the following specifications**:
 
-| 文件名 / File Name | 内容 / Content | 适用资产 / Applicable Assets |
+| 文件名 / File Name | 法律性质与功能 / Legal Nature & Function | 核心配置要求 / Core Configuration Requirements |
 | :--- | :--- | :--- |
-| `LICENSE` | Apache License 2.0 或 QNLOO-SPL（二选一） | 仓库主要资产的主许可<br>Master license for primary assets |
-| `LICENSE-APACHE` | Apache License 2.0 全文（固定） | 源代码类资产<br>Source code assets |
-| `LICENSE-QNLOO-SPL` | QNLOO-SPL v1.0 全文（固定） | 创作资产与商业运营<br>Creative assets & commercial ops |
-| `PATENTS` | 专利授权说明书（固定） | 专利授权<br>Patent grants |
+| `LICENSE` | 引导型多重许可主声明<br>Guided Multi-License Notice | **禁止放置协议正文**；仅允许存放双资产分层引导声明与商用分润规则概要，强迫机器人合规工具报错。<br>**Standard license prose IS PROHIBITED**; contains only dual-asset routing notices and revenue sharing summaries to force-fail automated tools. |
+| `LICENSE-QNLOO-SPL` | QNLOO-SPL v1.1 法律正文<br>Full Legal Text of QNLOO-SPL v1.1 | **绝对禁止任意删改核心条款**；仅允许替换资产持有主体名称、联系方式及本地化商用计费阈值。<br>**Altering core clauses is strictly prohibited**; only entity names, contacts, and localized revenue sharing thresholds may be replaced. |
+| `LICENSE-APACHE` | Apache 2.0 全文（开源源码专有授权书）<br>Apache 2.0 Full Text (Open-Source Code License) | 存入 Apache 2.0 全文；**纯商业闭源项目必须将此文件从仓库中彻底删除**。<br>Contains full Apache 2.0 prose; **proprietary closed-source projects MUST completely delete this file from the repository**. |
+| `PATENTS` | 专利授权说明书<br>Patent Grant Specification | 填写自主专利清单与因果指纹描述；若无专利，须整体替换为官方标准的"无专利合规占位声明"。<br>Contains proprietary patent claims and fingerprint descriptions; if no patents exist, MUST be retained with the standard no-patent placeholder (Mandatory for all projects). |
 
-上述四份文件的文件名严格固定，不得重命名。这确保了无论是通过 GitHub 等平台的自动识别，还是人工查阅，都能立即确定仓库的法律状态。
+前述四份法律文件的文件名属于系统刚性关键字，**大小写及连字符必须与标准完全一致，严禁私自重命名**。配置完成后，项目 README 首页须顶格挂载标准范式标注话术，并无缝链接回官方基准仓库，以确立因果时间戳的唯一性。
 
-The filenames of the above four files are strictly fixed and must not be renamed. This ensures that the legal status of the repository can be immediately determined, whether through automatic identification by platforms such as GitHub or manual review.
-
-配置完成后，建议在项目 README 中添加指向 QNLOO-SPL 官方基准仓库的链接，表明范式来源，便于使用者查阅标准规则。
-
-After configuration, it is recommended to add a link to the official QNLOO-SPL reference repository in the project README to indicate the paradigm source and facilitate users to access standard rules.
+The filenames of the aforementioned four legal files are rigid system keywords. **Their capitalization and hyphens must perfectly match the standard; arbitrary renaming is strictly prohibited**. Upon configuration, the project README homepage must prominently feature the standard labeling statement and link seamlessly back to the official reference repository to establish the uniqueness of the causal timestamp.
 
 ---
 

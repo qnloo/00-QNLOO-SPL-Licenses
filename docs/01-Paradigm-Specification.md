@@ -1,8 +1,10 @@
 # QNLOO-SPL 范式标准规范 / QNLOO-SPL Paradigm Specification
 
-**版本 / Version**: v1.0
+**版本 / Version**: v1.1
 
 **生效日期 / Effective Date**: 2026年6月30日
+
+**版本修订日期 / Version Revision Date**: 2026年7月4日
 
 **制定主体 / Issuing Entity**: 厦门千年鹿文化科技有限公司 (Xiamen QNLOO Culture & Technology Co., Ltd.)
 
@@ -16,9 +18,9 @@ This document is the official authoritative definition of the QNLOO-SPL Sovereig
 
 ## 1. 范式定义与官方定位 / Paradigm Definition & Official Positioning
 
-QNLOO-SPL（QNLOO Sovereign Public License）是一套独立、可复用、行业通用的数字资产许可标准，全称「主权公开许可范式」。它不属于传统免费开源协议，也不属于单纯的闭源商业软件许可，而是**源码开放的主权商事价值分配范式**。
+QNLOO-SPL（QNLOO Sovereign Public License）是一套独立、可复用、行业通用的数字资产许可标准，属于全新的**主权价值协议（Sovereign Value Protocol）**品类。本范式不属于传统免费开源协议，也不属于单纯的闭源商业软件许可，而是**源码开放的主权商事价值分配范式**。
 
-QNLOO-SPL (QNLOO Sovereign Public License) is an independent, reusable, industry-universal digital asset licensing standard, fully named the "Sovereign Public License Paradigm". It is neither a traditional free open-source license nor a purely proprietary commercial software license, but a **sovereign commercial value distribution framework with open source code**.
+QNLOO-SPL (QNLOO Sovereign Public License) is an independent, reusable, industry-universal digital asset licensing standard, belonging to the new category of **Sovereign Value Protocol**. This paradigm is neither a traditional free open-source license nor a purely proprietary commercial software license, but a **sovereign commercial value distribution framework with open source code**.
 
 本范式不申请 OSI 开源认证，不进入传统开源协议赛道。它跳出「开源/闭源」的二元对立框架，以「代码开放流通、资产主权确权、商业价值按比例回流」为核心逻辑，为数字资产创作者提供一套兼顾开放传播与合理收益的完整规则体系。
 
@@ -33,6 +35,7 @@ This paradigm does not seek OSI open-source certification and does not enter the
 All rules of this paradigm are designed around the following five underlying principles, which serve as the fundamental basis for judging rule iteration and third-party adoption compliance:
 
 ### 2.1 主权确权原则 / Principle of Sovereign Right Confirmation
+
 数字资产的知识产权、规则制定权归属于资产持有主体，依托所属主权国家的法律体系完成权利确权与司法保障。范式内置跨法域适配机制，保障权利在全球各司法辖区内的可执行性。
 
 The intellectual property rights and rule-making rights of digital assets belong to the asset holding entity, with right confirmation and judicial protection relying on the legal system of the home sovereign state. The paradigm has a built-in cross-jurisdictional adaptation mechanism to ensure the enforceability of rights in judicial jurisdictions worldwide.
@@ -44,6 +47,7 @@ The intellectual property rights and rule-making rights of digital assets belong
 Balancing individual inclusiveness, support for small and medium entities, and commercial payment: permanent free use for personal non-commercial purposes, compliance exemption for small entities, and proportional value return to creators from commercial entities reaching a certain revenue scale, forming a positive cycle of "users benefit, creators get compensated".
 
 ### 2.3 司法可落地原则 / Principle of Judicial Enforceability
+
 所有商事规则均以可司法执行为前提。违约金采用公允补偿定性、诉讼机制适配不同法系、权利边界清晰可举证，避免因规则过于理想化而在司法实践中被认定无效或酌减。
 
 All commercial rules are premised on judicial enforceability. Liquidated damages are defined as fair compensation, litigation mechanisms are adapted to different legal systems, and right boundaries are clear and provable, avoiding the risk of being ruled invalid or reduced in judicial practice due to overly idealized rules.
@@ -112,11 +116,11 @@ The statutory digital currency of the sovereign state where the paradigm issuing
 
 This mechanism is the core embodiment of the paradigm's sovereign attribute. It not only complies with the compliance obligations of the issuing entity as a domestic taxpaying enterprise, but also provides a standardized contract template for the large-scale application of statutory digital currency in intellectual property authorization scenarios.
 
-### 3.4 分布式社会化取证与吹哨人信托维权闭环 / Distributed Socialized Evidence Collection & Qui Tam Fiduciary Enforcement Loop
+### 3.4 分布式社会化取证与梯度化吹哨悬赏分成 / Distributed Socialized Evidence Collection & Tiered Qui Tam Bounty Sharing
 
-内置完整的社会化维权体系：通过开源被动式取证工具完成侵权指纹捕获，依托分布式账本完成链上存证，设置固定比例的吹哨人悬赏分成，配套跨法系自适应的不可撤销诉讼信托。
+内置完整的社会化维权体系：通过开源被动式取证工具完成侵权指纹捕获，依托分布式账本完成链上存证，设置固定比例的吹哨人悬赏分成，配套跨法系自适应的赏金权利预先让渡机制。
 
-A complete socialized enforcement system is built in: infringement fingerprint capture through open-source passive forensic tools, on-chain evidence preservation via distributed ledgers, a fixed-ratio whistleblower bounty share, and an irrevocable litigation trust adapted across legal systems.
+A complete socialized enforcement system is built in: infringement fingerprint capture through open-source passive forensic tools, on-chain evidence preservation via distributed ledgers, a fixed-ratio whistleblower bounty share, and a cross-jurisdictional adaptive pre-assignment of bounty rights mechanism.
 
 该机制将传统单点维权升级为全球分布式自治维权，大幅降低权利人的举证成本与诉讼门槛，同时通过经济激励调动全球第三方参与监督，形成高效的生态自治秩序。
 
@@ -126,15 +130,15 @@ This mechanism upgrades traditional single-point enforcement to global distribut
 
 根据侵权主体的主观过错程度，设置两套差异化赔付标准：
 
-- 无意疏漏：按正常授权费率单年度核算，无额外惩戒；
+- 无意疏漏：适用单年度**0.8%**费率，无连续三年追加条款。其中0.6%为基准体系授权费，剩余0.2%为违约补偿金；
 
-- 主观恶意逃逸：按上浮费率连续多年清算，覆盖声誉损失、维权成本、替代开发成本等全部隐性损失。
+- 主观恶意逃逸：适用**1.0%**年营收费率，强制连续清算3个财务年度。其中0.6%为基准体系授权费，归属规则制定者；剩余0.4%为恶意违约损害补偿金。为防止诉讼投机并确保生态长效治理，前述0.4%溢价补偿金仅在查实后的首个年度计提并预先让渡给举证成功的吹哨人作为悬赏激励，后续两个年度的0.4%溢价部分由规则制定者依法收回，专项充当生态常备维权与主权防卫基金。
 
 Two sets of differentiated compensation standards are set according to the subjective fault degree of the infringing entity:
 
-- Inadvertent omission: Calculated annually at the normal authorization rate, no additional penalty;
+- Inadvertent omission: A single-year rate of **0.8%** shall apply, without the additional three-year consecutive surcharge. Of this, 0.6% constitutes the benchmark system authorization fee, and the remaining 0.2% constitutes breach compensation;
 
-- Subjective bad-faith evasion: Multi-year consecutive liquidation at an increased rate, covering all hidden losses such as reputation loss, enforcement costs, and alternative development costs.
+- Subjective bad-faith evasion: A **1.0%** annual revenue fee rate shall apply, and shall be mandatorily and continuously enforced for three fiscal years. Of this, 0.6% constitutes the benchmark system authorization fee belonging to the Rule-Maker; the remaining 0.4% constitutes liquidated damages for malicious breach. To prevent champerty and ensure long-term ecological governance, the aforementioned 0.4% premium compensation shall only be calculated and pre-assigned as a reward incentive to the successful Qui Tam Relator for the first verified fiscal year; the 0.4% premium portion for the subsequent two fiscal years shall be lawfully reclaimed by the Rule-Maker, dedicated as a standing ecological enforcement and sovereign defense fund.
 
 违约金在法律上定性为「合理估算之公允补偿」而非惩罚性罚金，并配套完整的对价论证，最大限度适配各国法院的司法裁量标准，保障条款的可执行性。
 
@@ -174,7 +178,7 @@ Liquidated damages are legally defined as "reasonably estimated fair compensatio
 
 同时满足以下全部条件的项目，方可认定为合规采用 QNLOO-SPL 范式：
 
-1. 采用「源码宽松开源 + 创作资产商事许可」的双资产分层架构；
+1. 采用「双资产分层许可隔离架构」，明确切分计算机源代码与各类非代码创作资产；源码部分可选择宽松开源（如Apache 2.0）或完全闭源专有，商用运营与创作资产统一接受主权商事许可约束；
 2. 建立基于营收规模的阶梯式授权计费体系；
 3. 明确主权法定数字货币作为核心结算通道，并配套过渡期安排；
 4. 内置分布式取证与吹哨人维权的基础机制；
@@ -183,7 +187,7 @@ Liquidated damages are legally defined as "reasonably estimated fair compensatio
 
 A project may be deemed to have compliantly adopted the QNLOO-SPL paradigm only if it meets all of the following conditions:
 
-1. Adopts the dual-asset tiered architecture of "permissive open-source for code + commercial license for creative assets";
+1. Adopts the "Dual-Asset Tiered Licensing Isolation Architecture", explicitly segmenting computer source code from non-code creative assets; the source code portion may opt for either permissive open-source (e.g., Apache 2.0) or strictly proprietary closed-source, while commercial operations and creative assets are uniformly subject to the sovereign commercial license;
 2. Establishes a tiered authorization billing system based on revenue scale;
 3. Specifies sovereign statutory digital currency as the core settlement channel, with supporting transitional arrangements;
 4. Has built-in basic mechanisms for distributed evidence collection and Qui Tam enforcement;

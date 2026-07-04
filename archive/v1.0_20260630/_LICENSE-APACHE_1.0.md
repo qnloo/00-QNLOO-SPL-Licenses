@@ -4,15 +4,11 @@ Version 2.0, January 2004
 http://www.apache.org/licenses/
 ```
 
-
-
 ## LICENSE-APACHE / Apache License 2.0 全文
 
-**适用范围 / Scope of Application**
+以下为 Apache License 2.0 官方英文原文及中文参考译本。本许可证适用于千年鹿体系中的计算机源代码文件。
 
-本许可证仅适用于千年鹿（QNLOO）体系中的计算机源代码类资产。有关本仓库内其他类型资产的许可规则，请参阅本仓库根目录下的 `LICENSE-QNLOO-SPL` 主权公开许可范式文件及 `PATENTS` 专利授权说明书。
-
-This license applies exclusively to computer source code assets within the QNLOO system. For the licensing rules applicable to other types of assets in this repository, please refer to the `LICENSE-QNLOO-SPL` Sovereign Public License Paradigm file and the `PATENTS` patent grant addendum in the root directory of this repository.
+The following is the official English text of the Apache License 2.0 and a Chinese reference translation. This license applies to computer source code files within the QNLOO system.
 
 若中英文本存在语义分歧或解读差异，以英文官方原文为准。
 
