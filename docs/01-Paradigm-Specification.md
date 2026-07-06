@@ -156,6 +156,8 @@ Liquidated damages are legally defined as "reasonably estimated fair compensatio
 4. 有跨境运营需求、需要跨法域知识产权保护的数字资产项目；
 5. 希望对齐法定数字货币结算、落实资金合规追溯的企业级项目。
 
+>
+
 1. Projects with a complete digital asset portfolio of "source code + text + patent + content";
 2. Open-source projects with commercial operation needs that seek reasonable value return;
 3. Industrial software and protocol projects with independent technical standards that aim to build an industrial ecosystem;
@@ -167,7 +169,7 @@ Liquidated damages are legally defined as "reasonably estimated fair compensatio
 1. 纯个人非商用、无任何商业化计划的小型工具类项目；
 2. 仅包含单一源代码、无配套创作资产与商业体系的简单代码库；
 3. 完全内部使用、不对外分发与提供服务的闭源项目。
-
+>
 1. Small tool projects for purely personal non-commercial use without any commercialization plan;
 2. Simple code repositories containing only a single source code without supporting creative assets and commercial systems;
 3. Proprietary projects for purely internal use without external distribution or service provision.
@@ -218,7 +220,7 @@ Paradigm version numbers follow the `vX.Y` format:
 1. 次版本更新：不强制已采用项目升级，旧版本持续有效；
 2. 主版本更新：设置不少于 6 个月的适配过渡期，过渡期内新旧版本并行有效；
 3. 所有历史版本均永久归档于官方基准仓库，可供项目自主选择适用。
-
+>
 1. Minor version updates: Adopted projects are not forced to upgrade, and older versions remain valid;
 2. Major version updates: An adaptation transition period of no less than 6 months is set, during which both old and new versions remain valid;
 3. All historical versions are permanently archived in the official reference repository for projects to choose from independently.
@@ -237,7 +239,7 @@ The sole official release channel for the QNLOO-SPL paradigm is the paradigm ref
 2. 本规范为范式定义与标准说明文件，用于统一认知与判定合规性；
 3. 若本规范与主许可文本存在表述差异，以主许可法律文本为准；
 4. 中英文本存在语义分歧时，以对应版本的官方语言文本为准。
-
+>
 1. Specific rights and obligations shall be subject to the QNLOO-SPL main license legal text;
 2. This specification serves as the paradigm definition and standard explanation document for unified cognition and compliance judgment;
 3. In case of any expression difference between this specification and the main license text, the main license legal text shall prevail;

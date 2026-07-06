@@ -18,7 +18,9 @@ This document provides a plain-language interpretation of the core clauses of QN
 
 ## 1. 分级授权规则释义 / 1. Interpretation of Tiered Authorization Rules
 
-*对应主许可第一部分：分级授权与豁免规则*
+> 对应主许可第一部分：分级授权与豁免规则
+
+> Corresponding to the first part of the main license: Tiered Authorization and Exemption Rules
 
 ### 1.1 个人非商用永久豁免 / Permanent Exemption for Personal Non-Commercial Use
 
@@ -77,9 +79,11 @@ Special note: Liquidated damages from malicious infringement must be settled via
 
 ---
 
-## 2. 分布式执法机制释义 / Interpretation of Distributed Enforcement Mechanisms
+## 2. 分布式执法与吹哨人机制释义 / Interpretation of Distributed Enforcement and Qui Tam Mechanisms
 
-*对应主许可第二部分：分布式执法与吹哨人机制*
+> 对应主许可第二部分：分布式执法与吹哨人机制
+
+> Corresponding to the second part of the main license: Distributed Enforcement and Qui Tam Mechanisms
 
 ### 2.1 跨法域属地适配  / Cross-Jurisdictional Territorial Adaptation
 
@@ -91,11 +95,11 @@ Plain meaning: This set of rules automatically adapts to local laws in different
 
 Core function: Avoid the problem of "valid in one country, invalid in another", and ensure enforceability worldwide.
 
-### 2.2 分布式社会化取证与司法属地双轨制 / Distributed Standing & Qui Tam Standing Rules
+### 2.2 分布式社会化取证与司法属地双轨制 / Distributed Forensic Evidence & Dual-Track Enforcement Mechanisms
 
 简单理解：为了彻底规避部分大陆法系国家对“事前诉讼信托/代为诉讼”的合规限制，v1.1版本升级为属地双轨制维权：在美国司法辖区内，捕获证据的吹哨人自动取得共同原告资格；在中国大陆、欧盟等全球其余法域，诉讼资格专属资产持有主体或其合法书面授权的律所，吹哨人匿名提供哈希铁证并领取赏金，无需暴露肉身承担法律风险。
 
-Plain meaning: To completely circumvent local legal restrictions on "pre-litigation trusts" or "maintenance" in civil law jurisdictions, the v1.1 framework upgrades to a dual-track enforcement system: within judicial districts of the United States, Qui Tam Relators automatically obtain co-plaintiff standing; in Chinese mainland, the European Union, and all other global jurisdictions, exclusive litigation standing is reserved solely for the asset owner or its lawfully authorized legal counsel in writing, allowing relators to provide evidence anonymously and claim bounties without personal legal exposure.
+Plain meaning: To completely circumvent local legal restrictions on "pre-litigation trusts" or "maintenance" in civil law jurisdictions, the v1.1 framework upgrades to a dual-track enforcement system: within the judicial districts of the United States, Qui Tam Relators automatically obtain co-plaintiff standing; in Chinese mainland, the European Union, and all other global jurisdictions, exclusive litigation standing is reserved solely for the asset owner or its lawfully authorized legal counsel in writing, allowing Qui Tam Relators to provide evidence anonymously and claim bounties without personal legal exposure.
 
 ### 2.3 赏金权利预先让渡机制 / Pre-Assignment of Bounty Rights
 
@@ -107,21 +111,24 @@ Plain meaning: Upon discovering bad-faith infringement, any third party worldwid
 
 ## 3. 违约赔偿规则释义 / Interpretation of Default Compensation Rules
 
-*对应主许可第三部分：损害赔偿与合规要求*
+> 对应主许可第三部分：损害赔偿与合规要求
+
+> Corresponding to the third part of the main license: Damage Compensation and Compliance Requirements
 
 ### 3.1 赏金分付与权责边界 / Separate Payment of Bounty and Liability Boundaries
 
 简单理解：诉讼或调解成功后，对应 0.6% 年营收的基准费部分作为补缴授权费直接支付给规则制定者；剩余溢价补偿部分，直接分账支付给举证成功的吹哨人作为悬赏激励。所有取证成本、诉讼费、律师费等全部由吹哨人从所得赏金中自行覆盖，规则制定者不承担任何垫付或担保责任。
 
-Plain meaning: Upon successful litigation, mediation, or settlement, the portion corresponding to 0.6% of annual revenue as the benchmark fee shall be paid directly by the infringing entity to the Rule-Maker as overdue system authorization fees; the remaining premium compensation portion shall be paid directly to the successful Qui Tam Relator as an incentive bounty. All enforcement-related expenses, including evidence collection costs and legal fees, shall be borne solely by the relator and covered from the bounty received, and the Rule-Maker assumes no liability or obligation for advance payments.
+Plain meaning: Upon successful litigation, mediation, or settlement, the portion corresponding to 0.6% of annual revenue as the benchmark fee shall be paid directly by the infringing entity to the Rule-Maker as overdue system authorization fees; the remaining premium compensation portion shall be paid directly to the successful Qui Tam Relator as an incentive bounty. All enforcement-related expenses, including evidence collection costs and legal fees, shall be borne solely by the Qui Tam Relator and covered from the bounty received, and the Rule-Maker assumes no liability or obligation for advance payments.
 
 ### 3.2 不真诚违约梯度与1.66倍数学熔断 / Non-Sincere Breach & The 1.66x Model
 
 简单理解：违约侵权按主观程度分为两档：一是无意疏漏，按单年度 0.8% 费率清算，不追加三年连续条款；二是主观恶意逃逸，适用 1.0% 年营收费率，强制连续清算 3 个财务年度。
+
 在恶意的三年清算中，仅首年度的 0.4% 溢价作为悬赏发放给举证极客，后续两年的 0.4% 溢价由规则制定者依法收回，专项转化成长线诉讼博弈的“主权防卫基金”。三年总计赔偿（3%）相比正常合规并网时三年应付的授权费（每年0.6%，三年合计1.8%）仅为 1.66 倍，定性为对全量资产组合受损的合理估算之清算违约金，绝非惩罚性罚金，以排除各主权国法院予以司法裁量酌减之抗辩。
 
 Plain meaning: Breach is categorized into two tiers based on subjective intent: (a) inadvertent omissions, applying a single-year 0.8% rate without the three-year consecutive clause; (b) subjective bad-faith evasion, applying a 1.0% annual revenue fee rate mandatorily and continuously enforced for three fiscal years.
-Under the three-year bad-faith liquidation, only the 0.4% premium of the first year constitutes the Qui Tam bounty incentive for the relator; the 0.4% premiums of the subsequent two fiscal years are lawfully reclaimed by the Rule-Maker as additional compensation and dedicated as a standing sovereign defense fund. The total three-year compensation (3%) vs. the normal authorization fees that would have been paid over three years of compliant operation (0.6% annually, 1.8% total) is exactly 1.66x, legally characterized as reasonably estimated liquidated damages for the complete asset portfolio rather than punitive damages, thereby precluding defenses in sovereign courts that seek judicial reduction on the grounds of its punitive nature.
+Under the three-year bad-faith liquidation, only the 0.4% premium of the first year constitutes the Qui Tam bounty incentive for the Qui Tam Relator; the 0.4% premiums of the subsequent two fiscal years are lawfully reclaimed by the Rule-Maker as additional compensation and dedicated as a standing sovereign defense fund. The total three-year compensation (3%) vs. the normal authorization fees that would have been paid over three years of compliant operation (0.6% annually, 1.8% total) is exactly 1.66x, legally characterized as reasonably estimated liquidated damages for the complete asset portfolio rather than punitive damages, thereby precluding defenses in sovereign courts that seek judicial reduction on the grounds of its punitive nature.
 
 ---
 
@@ -138,6 +145,7 @@ Legal significance: Courts in many countries will reduce "punitive fines", but w
 ### 3.4 规则更新与合规要求/ Rule Updates & Compliance Requirements
 
 简单理解：许可规则后续会更新，商业主体有6个月的适配期；到期不更新的，取消免费额度，按全额营收计费。
+
 Plain meaning: License rules will be updated in the future, and commercial entities have a 6-month adaptation period; those who do not update after expiration lose the exemption and are billed on full revenue.
 
 ---
@@ -170,7 +178,7 @@ Plain meaning: If a clause violates mandatory local law in a certain country, th
 
 ---
 
-## 5. 常见法律疑问解答 / 5. Common Legal FAQ
+## 5. 常见法律疑问解答 / Common Legal FAQ
 
 ### Q1：这份许可有法律效力吗？/ Does this license have legal effect?
 
@@ -184,11 +192,11 @@ Yes. It is a civil contract. If you use the governed assets, you are deemed to a
 
 No. Simply using, modifying and distributing source code is only subject to Apache 2.0, no SPL fees required. SPL rules only apply when you commercially use creative assets such as system logic, text, patents and music, or provide commercial services based on this system.
 
-### Q3：吹哨人被动取证合法吗？Is passive evidence collection by whistleblowers legal?
+### Q3：吹哨人被动取证合法吗？/ Is passive evidence collection by Qui Tam Relators (Whistleblowers) legal?
 
 合法。取证工具仅分析公开可访问的网络出站流量，不侵入系统、不窃取非公开数据，符合各国网络安全与数据保护的通行规则。
 
-Yes. The forensic tool only analyzes publicly accessible network egress traffic, does not intrude into systems, does not steal non-public data, and complies with general rules of cybersecurity and data protection in various countries.
+Yes. Passive evidence collection by Qui Tam Relators is legal. The forensic tool only analyzes publicly accessible network egress traffic, does not intrude into systems, does not steal non-public data, and complies with general rules of cybersecurity and data protection in various countries.
 
 ### Q4：3%的违约金法院会支持吗？ / Will courts uphold the 3% liquidated damages?
 

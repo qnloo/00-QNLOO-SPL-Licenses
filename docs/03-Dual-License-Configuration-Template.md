@@ -29,12 +29,22 @@ The QNLOO-SPL paradigm strictly adopts a "Network-Wide Standard Multi-File Colla
 Regardless of whether a project is open-source, source-available, or purely closed-source, the following corresponding exclusive legal files must be fully deployed in the repository root:
 
 - `LICENSE`：**引导型多重许可主声明（固定路由防火墙，全项目必选）**。显式声明双资产分离架构，用于强制熔断第三方自动化合规扫描，提供资产分流路由指引。
+
 - `LICENSE`: **Permissive Guided Multi-License Notice (Mandatory routing firewall for all projects)**. Explicitly declares the dual-asset architecture to force-fail third-party automated compliance scanners and compel manual legal audits.
+
+
 - `LICENSE-QNLOO-SPL`：**QNLOO-SPL 法律全文（全项目必选）**。专门管辖协议、白皮书、专利、内容资产及商业运营分润行为。
+
 - `LICENSE-QNLOO-SPL`: **Full legal text of QNLOO-SPL (Mandatory for all projects)**. Dedicated exclusively to governing protocols, whitepapers, patents, creative assets, and commercial revenue sharing operations.
+
+
 - `PATENTS`：**专利授权说明书（全项目必选）**。有专利项目填写清单，无专利项目保留无专利占位声明。
+
 - `PATENTS`: **Patent Grant Specification (Mandatory for all projects)**. Projects with patents shall list their claims; projects without patents shall retain the no-patent placeholder statement.
+
+
 - `LICENSE-APACHE`：**Apache License 2.0 全文（纯闭源项目须删除本文件）**。专门管辖处于开放流通状态的计算机源代码类资产。
+
 - `LICENSE-APACHE`: **Full text of Apache License 2.0 (MUST be deleted for proprietary closed-source projects)**. Dedicated exclusively to governing computer source code assets intended for free circulation.
 
 ---
@@ -45,6 +55,7 @@ Regardless of whether a project is open-source, source-available, or purely clos
 
 It is recommended that all projects adopting this paradigm place license files according to the following directory structure, consistent with the naming conventions of the official reference repository.
 
+```
 project-repository/
 ├── LICENSE                  # 引导型多重许可主声明（强制路由防火墙，禁止放置开源/商业许可正文）
 │                            # Guided Multi-License Notice (Mandatory routing firewall; standard open-source or commercial license prose IS PROHIBITED)
@@ -68,6 +79,7 @@ project-repository/
     │                        # Multimedia assets directory, governed by QNLOO-SPL
     ├── audio/
     └── images/
+```
 
 补充说明：若项目无专利资产，可省略 `PATENTS` 文件，或保留占位说明。
 
@@ -82,9 +94,10 @@ Supplementary Note: If the project has no patent assets, the `PATENTS` file may 
 A standardized dual-license statement must be added to the license declaration area on the project README homepage to clearly inform users of the license rules for the two categories of assets.
 
 ### 3.1 精简版（适用于小型项目） / 3.1 Concise Version (for small projects)
-> **许可声明**：本项目计算机源代码遵循 Apache License 2.0 开源协议；协议文本、文档、音频等创作资产及商业运营行为采用 QNLOO-SPL 主权公开许可范式。
-> 
-> **License Statement**: The computer source code of this project is licensed under the Apache License 2.0; creative assets such as protocol text, documents and audio, as well as commercial operations, adopt the QNLOO-SPL Sovereign Public License Paradigm.
+
+**许可声明**：本项目计算机源代码遵循 Apache License 2.0 开源协议；协议文本、文档、音频等创作资产及商业运营行为采用 QNLOO-SPL 主权公开许可范式。
+
+**License Statement**: The computer source code of this project is licensed under the Apache License 2.0; creative assets such as protocol text, documents and audio, as well as commercial operations, adopt the QNLOO-SPL Sovereign Public License Paradigm.
 
 ### 3.2 完整版（适用于中大型项目） / 3.2 Full Version (for medium and large projects)
 
@@ -198,35 +211,35 @@ The following are unified judgment criteria for easily confusing asset types to 
 
 ## 6. 常见配置错误与修正 / Common Configuration Errors & Corrections
 
-### 错误 1：全仓库统一使用 Apache 2.0
+### 错误 1：全仓库统一使用 Apache 2.0 / Use Apache 2.0 only for the entire repository
 
-错误表现：将白皮书、专利、音乐等创作资产也纳入 Apache 2.0 许可范围，导致核心资产失去商事保护。
+**错误表现：** 将白皮书、专利、音乐等创作资产也纳入 Apache 2.0 许可范围，导致核心资产失去商事保护。
 
-Error: Creative assets such as whitepapers, patents and music are also included in the Apache 2.0 scope, resulting in loss of commercial protection for core assets.
+**Error:** Creative assets such as whitepapers, patents and music are also included in the Apache 2.0 scope, resulting in loss of commercial protection for core assets.
 
-修正方案：按本模板划分资产边界，根目录 `LICENSE` 统一配置为引导型多重许可主声明（路由防火墙），将具体的商事确权规则沉淀至 `LICENSE-QNLOO-SPL` 文件中，并在 README 中清晰标注。
+**修正方案：** 按本模板划分资产边界，根目录 `LICENSE` 统一配置为引导型多重许可主声明（路由防火墙），将具体的商事确权规则沉淀至 `LICENSE-QNLOO-SPL` 文件中，并在 README 中清晰标注。
 
-Correction: Divide asset boundaries according to this template. Configure the root `LICENSE` file strictly as the Guided Multi-License Notice (routing firewall), offload the specific commercial enforcement rules to the `LICENSE-QNLOO-SPL` file, and clearly label it in the README.
+**Correction:** Divide asset boundaries according to this template. Configure the root `LICENSE` file strictly as the Guided Multi-License Notice (routing firewall), offload the specific commercial enforcement rules to the `LICENSE-QNLOO-SPL` file, and clearly label it in the README.
 
-### 错误 2：仅放置一份许可证文件
+### 错误 2：仅放置一份许可证文件 / Only one license file exists in the repository root
 
-错误表现：仓库根目录仅有一份许可证文件，未提供完整的双许可配套文件，导致使用者无法明确区分代码与资产的授权规则。
+**错误表现：** 仓库根目录仅有一份许可证文件，未提供完整的双许可配套文件，导致使用者无法明确区分代码与资产的授权规则。
 
-Error: Only one license file exists in the repository root, without the complete dual-license supporting files, making it impossible for users to clearly distinguish the authorization rules for code and assets.
+**Error:** Only one license file exists in the repository root, without the complete dual-license supporting files, making it impossible for users to clearly distinguish the authorization rules for code and assets.
 
-修正方案：在根目录补充 `LICENSE-APACHE`、`LICENSE-QNLOO-SPL` 和 `PATENTS` 三份固定文件，确保完整覆盖所有资产类型的许可规则。
+**修正方案：** 在根目录补充 `LICENSE-APACHE`、`LICENSE-QNLOO-SPL` 和 `PATENTS` 三份固定文件，确保完整覆盖所有资产类型的许可规则。
 
-Correction: Add the three fixed files `LICENSE-APACHE`, `LICENSE-QNLOO-SPL` and `PATENTS` in the root directory to ensure complete coverage of license rules for all asset types.
+**Correction:** Add the three fixed files `LICENSE-APACHE`, `LICENSE-QNLOO-SPL` and `PATENTS` in the root directory to ensure complete coverage of license rules for all asset types.
 
-### 错误 3：私自修改核心条款后仍标注 QNLOO-SPL 范式
+### 错误 3：私自修改核心条款后仍标注 QNLOO-SPL 范式 / Still label QNLOO-SPL paradigm after modifying core clauses
 
-错误表现：删减双许可架构、梯度违约金、跨法域适配等核心条款，仍对外声称采用 QNLOO-SPL 范式。
+**错误表现：** 删减双许可架构、梯度违约金、跨法域适配等核心条款，仍对外声称采用 QNLOO-SPL 范式。
 
-Error: Core clauses such as dual-license architecture, tiered liquidated damages and cross-jurisdictional adaptation are deleted, while still claiming to adopt the QNLOO-SPL paradigm.
+**Error:** Core clauses such as dual-license architecture, tiered liquidated damages and cross-jurisdictional adaptation are deleted, while still claiming to adopt the QNLOO-SPL paradigm.
 
-修正方案：核心框架条款不得修改，仅可替换主体信息、调整营收阈值与费率等商业参数；对核心条款做实质性变更的项目，不得使用 QNLOO-SPL 范式标识。
+**修正方案：** 核心框架条款不得修改，仅可替换主体信息、调整营收阈值与费率等商业参数；对核心条款做实质性变更的项目，不得使用 QNLOO-SPL 范式标识。
 
-Correction: Core framework clauses shall not be modified; only entity information may be replaced, and commercial parameters such as revenue thresholds and rates may be adjusted. Projects with substantive changes to core clauses may not use the QNLOO-SPL paradigm identifier.
+**Correction:** Core framework clauses shall not be modified; only entity information may be replaced, and commercial parameters such as revenue thresholds and rates may be adjusted. Projects with substantive changes to core clauses may not use the QNLOO-SPL paradigm identifier.
 
 ---
 

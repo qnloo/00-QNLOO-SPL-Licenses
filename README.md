@@ -6,7 +6,7 @@ This repository is the sole official standard repository for the **QNLOO-SPL (QN
 
 ---
 
-### 品类定义与对标参考 / Category Definition & Benchmark Reference
+## 1. 品类定义与对标参考 / Category Definition & Benchmark Reference
 
 QNLOO-SPL 属于全新的**主权价值协议（Sovereign Value Protocol）** 品类，与以 Apache 2.0 为代表的传统开源协议并行，分别对应不同的产业阶段与核心诉求：
 - 传统开源协议解决「代码要不要开放、如何共享」的问题，核心是技术协作效率；
@@ -17,6 +17,7 @@ QNLOO-SPL belongs to the new **Sovereign Value Protocol** category, parallel to 
 - Sovereign value protocols address "whether and how to align value under sovereign rules", focusing on ecological governance and value sovereignty.
 
 以行业最通用的 Apache 2.0 为参照，两者核心差异如下：
+
 Taking the most widely used Apache 2.0 as a benchmark, the core differences are as follows:
 
 | 对比维度 / Dimension | Apache 2.0（传统开源协议）<br>Apache 2.0 (Traditional Open-Source License) | QNLOO-SPL（主权价值协议）<br>QNLOO-SPL (Sovereign Value Protocol) |
@@ -30,7 +31,36 @@ Taking the most widely used Apache 2.0 as a benchmark, the core differences are 
 
 ---
 
-## 2. 五大核心标志性特征 / Five Core Defining Features
+## 2. 理论同构性：为什么这套范式值得信赖 / Theoretical Isomorphism: Why This Paradigm Is Trustworthy
+
+QNLOO-SPL 不是一套凭空设计的法律规则，而是从千年鹿认知体系的底层方法论中自然生长出来的。它与《认知之河》体系共享同一套基因——价值协议的三公理与四阶段贝叶斯更新循环。
+
+QNLOO-SPL is not a set of legal rules designed in a vacuum, but a natural outgrowth from the underlying methodology of the QNLOO cognition system. It shares the same genetic code as the *River of Cognition* system — the three axioms and four-phase Bayesian update cycle of the Value Protocol.
+
+**同一基因，不同维度的生长**
+
+《认知之河》以“认知传递”为基因，解决的是个体如何在不确定性中做出高质量决策的问题。它的底层算法是四阶段认知循环——提出假设、设计验证、收集反馈、更新认知。这套基因让个体从迷茫走向觉醒，从知识的被动消费者变成认知的主动炼金者。
+
+QNLOO-SPL 以“主权价值”为基因，解决的是数字资产价值如何公平分配的问题。它的底层算法同样是价值协议三公理 ——价值交换公理、不确定性公理、认知成本公理。双资产分层是价值交换断裂的修复，双层主权互惠是不确定性的锚点，分布式吹哨悬赏是认知成本的极致压缩。
+
+**Same Gene, Different Dimensions of Growth**
+
+*River of Cognition* takes "cognitive transmission" as its gene, addressing the problem of how individuals can make high-quality decisions amid uncertainty. Its underlying algorithm is the four-phase cognitive cycle — formulating hypotheses, designing verifications, collecting feedback, and updating cognition. This genetic code enables individuals to move from confusion to awakening, transforming from passive consumers of knowledge into active alchemists of cognition.
+
+QNLOO-SPL takes "sovereign value" as its gene, addressing the problem of how to fairly distribute the value of digital assets. Its underlying algorithm is likewise the three axioms of value protocol — value exchange axiom, uncertainty axiom, and cognitive cost axiom. Dual-asset tiering is the repair of value exchange; the dual-layer sovereign reciprocity is the solution to uncertainty; distributed Qui Tam bounty sharing is the ultimate compression of cognitive costs.
+
+
+**同构性的自证价值**
+
+同一套基因，在两个完全不同的领域——认知科学领域与经济法律领域——分别长出了两套逻辑自洽、生态自循环、共赢互利的完整体系。这不是巧合，而是价值协议方法论有效性的客观证明。它证明了这套基因不是单一场景的偶然成功，而是具备跨领域可迁移性的科学方法论。
+
+**The Self-Proving Value of Isomorphism**
+
+The same genetic code has grown into two complete, logically self-consistent, ecologically self-circulating, and mutually beneficial systems in two entirely different domains — cognitive science and economic law. This is not coincidence, but objective proof of the effectiveness of the Value Protocol methodology. It demonstrates that this genetic code is not a one-off success in a single scenario, but a scientific methodology with cross-domain transferability.
+
+---
+
+## 3. 五大核心标志性特征 / Five Core Defining Features
 
 QNLOO-SPL 范式具备以下五项标志性特征，与全球所有现有许可协议形成清晰边界：
 
@@ -38,15 +68,15 @@ The QNLOO-SPL paradigm possesses the following five defining features, establish
 
  特征 / Feature | 说明 / Description |
 | :--- | :--- |
-| **双资产分层许可隔离架构**<br>**Dual-Asset Tiered Licensing Isolation Architecture** | 源代码采用宽松开源协议自由开放；文本、专利、音频、体系逻辑、商用运营行为单独受主权商事许可约束<br>Source code is freely available under a permissive open-source license; textual, patent, audio, systemic logic, and commercial operational assets are separately governed by sovereign commercial licensing terms |
-| **阶梯式营收分层授权体系**<br>**Progressive Revenue-Based Tiered Authorization** | 个人/学术永久免费；小微营收阈值内全豁免；合规主体超额营收固定比例分润；游离生态主体全额营收计费；大厂产品线穿透核算<br>Permanent free use for individuals and academia; full exemption for small-scale entities within revenue thresholds; fixed-percentage revenue sharing for compliant entities with excess revenue; full-revenue billing for off-chain entities; and enterprise product-line revenue penetration |
+| **双资产分层许可隔离架构**<br>**Dual-Asset Tiered Licensing Isolation Architecture** | 源代码采用宽松开源协议自由开放；<br>文本、专利、音频、体系逻辑、商用运营行为单独受主权商事许可约束<br>Source code is freely available under a permissive open-source license; <br>textual, patent, audio, systemic logic, and commercial operational assets are separately governed by sovereign commercial licensing terms |
+| **阶梯式营收分层授权体系**<br>**Progressive Revenue-Based Tiered Authorization** | 个人/学术永久免费；<br>小微营收阈值内全豁免；<br>合规主体超额营收固定比例分润；<br>游离生态主体全额营收计费；<br>大厂产品线穿透核算<br>Permanent free use for individuals and academia; <br>full exemption for small-scale entities within revenue thresholds; <br>fixed-percentage revenue sharing for compliant entities with excess revenue; <br>full-revenue billing for off-chain entities; and enterprise product-line revenue penetration |
 | **主权法定数字货币结算机制**<br>**Sovereign Statutory CBDC Settlement Mechanism** | 以发行主体所属国家法定数字货币为全球基准结算通道，内置法定数字货币+过渡期兼容支付的双线支付规则，绑定本土企业完税与资金追溯合规义务<br>The statutory digital currency of the issuing entity's home country serves as the global benchmark settlement channel, with built-in dual-channel payment rules (CBDC + transition-compatible payment), binding compliance obligations for local tax payment and fund traceability |
-| **分布式社会化取证与梯度化吹哨悬赏分成**<br>**Distributed Socialized Evidence Collection & Tiered Qui Tam Bounty Sharing** | 开源被动式取证工具、链上侵权指纹存证；恶意违约场景下合规主体营收清算义务覆盖连续三个完整会计年度；吹哨悬赏金仅按查实后首个年度对应档位的补偿金计提，赏金权利预先让渡，跨法系自适应<br>Open-source passive forensic toolkits, on-chain infringement fingerprint recording; revenue liquidation obligation for bad-faith breach covers three consecutive full fiscal years; qui tam bounty is only calculated based on the compensation of the first verified year at the corresponding tier, with pre-assigned bounty rights and cross-jurisdictional adaptability |
+| **分布式社会化取证与梯度化吹哨悬赏分成**<br>**Distributed Socialized Evidence Collection & Tiered Qui Tam Bounty Sharing** | 开源被动式取证工具、链上侵权指纹存证；<br>恶意违约场景下合规主体营收清算义务覆盖连续三个完整会计年度；<br>吹哨悬赏金仅按查实后首个年度对应档位的补偿金计提，赏金权利预先让渡，跨法系自适应<br>Open-source passive forensic toolkits, on-chain infringement fingerprint recording; <br>revenue liquidation obligation for bad-faith breach covers three consecutive full fiscal years; <br>qui tam bounty is only calculated based on the compensation of the first verified year at the corresponding tier, with pre-assigned bounty rights and cross-jurisdictional adaptability |
 | **梯度化公允清算违约金规则**<br>**Tiered and Fairly Estimated Liquidated Damages Rules** | 区分无意疏漏与主观恶意逃逸两套赔付标准，违约金经完整法理论证为公允补偿而非惩罚性罚金，适配各国司法裁量标准<br>Two sets of compensation standards distinguishing inadvertent omissions from subjective bad-faith evasion, with liquidated damages fully legally reasoned as fair compensation rather than punitive penalties, suitable for judicial discretion across sovereign courts worldwide |
 
 ---
 
-## 3. 仓库内容说明 / Repository Contents
+## 4. 仓库内容说明 / Repository Contents
 
 | 文件/目录 / File/Directory | 说明 / Description |
 | :--- | :--- |
@@ -70,13 +100,13 @@ The QNLOO-SPL paradigm does not seek OSI open-source certification. It operates 
 
 ---
 
-## 4. 与全球现有许可的核心差异 / Key Differences from Existing Licenses
+## 5. 与全球现有许可的核心差异 / Key Differences from Existing Licenses
 
 下表从六个关键维度，展示 QNLOO-SPL 与全球主流许可协议的根本差异：
 
 The following table illustrates the fundamental differences between QNLOO-SPL and major global license agreements across six key dimensions:
 
-| 对比维度 / Dimension | Apache 2.0 | GPL 3.0 | BSL | SSPL | 木兰宽松许可证 MulanPSL-2.0 | **QNLOO-SPL** |
+| 对比维度 / Dimension | Apache 2.0 | GPL 3.0 | BSL | SSPL | MulanPSL-2.0 | **QNLOO-SPL** |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | 源码与创作资产区分<br>Source/Asset Distinction | ✗ | ✗ | ✗ | ✗ | ✗ | **✓** |
 | 分层商用计费<br>Tiered Commercial Billing | ✗ | ✗ | ✗ | ✗ | ✗ | **✓** |
@@ -87,7 +117,7 @@ The following table illustrates the fundamental differences between QNLOO-SPL an
 
 ---
 
-## 5. 如何采用本范式 / How to Adopt This Paradigm
+## 6. 如何采用本范式 / How to Adopt This Paradigm
 
 任何企业、团队或个人，可按照以下步骤采用 QNLOO-SPL 范式：
 
@@ -103,7 +133,7 @@ Any enterprise, team, or individual may adopt the QNLOO-SPL paradigm by followin
 
 ---
 
-## 6. 版本说明 / Version Information
+## 7. 版本说明 / Version Information
 
 | 版本 / Version | 生效日期 / Effective Date | 说明 / Description |
 | :--- | :--- | :--- |
@@ -116,24 +146,77 @@ Version naming convention: QNLOO-SPL vX.Y. The latest version is permanently mai
 
 ---
 
-## 7. 联系与对接 / Contact & Inquiries
+## 8. 官方生态入口 / Official Ecosystem Links
 
-官方唯一对接邮箱：**contact@qnloo.com**
+整个千年鹿认知体系由五大核心板块构成，覆盖规则范式、方法论与工具载体、理论体系、技术专利、工程实现五大层级，各板块底层逻辑完全同构。
 
-Official exclusive contact email: **contact@qnloo.com**
+The entire QNLOO cognition system consists of five core modules, covering five layers: rule paradigm, methodology & tool carrier, theoretical system, technical patents, and engineering implementation. All modules share the identical underlying logic.
 
-为提升对接效率，来信请采用以下格式：
-> 主题：[您自定义的简明主题]
-> 正文：[您的机构/姓名、意图说明、所属机构官网地址及联系方式]
+| 层级 / Layer | 生态板块 / Ecosystem Node | 官方入口 / Official URL |
+| :---: | :--- | :--- |
+| 规则范式<br/>Rule Paradigm | QNLOO-SPL 范式基准仓库<br/>QNLOO-SPL Paradigm Reference | [github.com/QNLOO/00-QNLOO-SPL-Licenses](https://github.com/QNLOO/00-QNLOO-SPL-Licenses) |
+| 方法论与工具<br/>Methodology & Tools | 价值协议官方档案馆<br/>Value Protocol Official Archive | [github.com/QNLOO/01-1-value-protocols](https://github.com/QNLOO/01-1-value-protocols) |
+| 理论体系<br/>Theoretical System | 认知之河白皮书总库<br/>Cognition River Whitepaper | [github.com/QNLOO/01-2-cognition-river](https://github.com/QNLOO/01-2-cognition-river) |
+| 技术专利<br/>Technical Patents | 技术专利与合规档案库<br/>Patents & Compliance Archive | [github.com/QNLOO/01-3-cognition-river-patents](https://github.com/QNLOO/01-3-cognition-river-patents) |
+| 工程实现<br/>Engineering Implementation | 体系技术蓝图仓库<br/>System Technical Blueprints | [github.com/QNLOO/01-4-cognition-river-blueprints](https://github.com/QNLOO/01-4-cognition-river-blueprints) |
 
-To improve efficiency, please use the following format for your email:
-> Subject: [Your customized concise subject]
-> Body: [Your institution/name, statement of intent, official website of your institution, and contact information]
+---
 
+## 9. 官方音乐专辑 / Official Music Album
 
-> **注意**: 本邮箱仅用于初步意向沟通与信息分发，不构成任何商业承诺或合同要约。
+千年鹿认知体系专属声音资产，与白皮书叙事完全同步发布。它是用声音写成的生命史诗，记录了个人认知成长从温柔孕育到淬炼成金、从觉醒到开创的完整英雄旅程。每一首曲目，都对应着白皮书叙事中的一个关键节点。
 
-> **Note**: This email is solely for preliminary communication and information distribution, and does not constitute any commercial promise or contractual offer. 
+Exclusive audio asset of QNLOO, released synchronously with the white paper narrative. It is an epic of life written with sound, recording the complete heroic journey of individual cognitive growth from gentle gestation to refinement into gold, and from awakening to forging new paths. Each track corresponds to a key node in the white paper's narrative.
+
+| 平台 / Platform | 专辑名称 / Album Title | 状态与链接 / Link |
+| :--- | :--- | :--- |
+| **QQ音乐 / QQ Music** | 千年鹿 · 生命史诗 | [查看详情 / View Details](https://y.qq.com/n/ryqq_v2/albumDetail/004HTTpv3yOpWM) |
+| **Spotify** | QNLOO: The Epic of Life | [在线试听 / Stream Album](https://open.spotify.com/album/4kZkrAVCECuUTG1uu5sOL1) |
+
+---
+
+## 10. 联系与对接 / Contact & Inquiries
+
+| 规划维度 | 对接规范与格式要求 |
+| :--- | :--- |
+| **对接邮箱** | **contact@qnloo.com** |
+| **邮件主题** | `[您自定义的简明主题]` |
+| **邮件正文** | 1. 您的机构/姓名<br/>2. 意图说明<br/>3. 所属机构官网地址<br/>4. 联系方式 |
+| **注意事项** | 本邮箱仅用于初步意向沟通与信息分发，不构成任何商业承诺或合同要约。 |
+
+<br/>
+
+| Category | Requirements & Format |
+| :--- | :--- |
+| **Contact Email** | **contact@qnloo.com** |
+| **Subject** | `[Your customized concise subject]` |
+| **Body** | 1. Your institution/name<br/>2. Statement of intent<br/>3. Official website of your institution<br/>4. Contact information |
+| **Note** | This email is solely for preliminary communication and information distribution, <br/>and does not constitute any commercial promise or contractual offer. |
+
+---
+
+## 11. 官方社区与社交媒体 / Official Community & Social Media
+
+| 平台 / Platform | 账号名称 / Account Name | 直达链接 / Direct Link |
+| :--- | :--- | :--- |
+| **Hugging Face** | QNLOO | [访问 / Visit](https://huggingface.co/QNLOO) |
+| **GitHub** | QNLOO | [访问 / Visit](https://github.com/qnloo) |
+| **Product Hunt** | @qnloo | [访问 / Visit](https://www.producthunt.com/@qnloo) |
+| **X (Twitter)** | @QNLOO2026 | [访问 / Visit](https://x.com/QNLOO2026) |
+| **Reddit** | u/QNLOO | [访问 / Visit](https://www.reddit.com/user/QNLOO/) |
+| **知乎 / Zhihu** | qnloo | [访问 / Visit](https://www.zhihu.com/people/qnloo) |
+
+---
+
+## 12. 外部权限 / Contribution Policy
+
+**“发布即交付”——每一份交付成果都不是征求意见稿，而是构建者深思熟虑之后的完整思想交付。** 因此，本仓库为官方对外只读归档仓库，不接收任何外部提交的PR、Issue及修改贡献。
+
+官方将持续进行贝叶斯更新——主动发现问题、验证假设、寻求更优路径，从而自主决定交付成果的迭代方向与节奏。外部反馈将作为辅助参考，但迭代的最终决策与执行主体始终是官方自身。所有内容的迭代、释义与版本定义权属归官方所有。
+
+**"Release as Delivery" — each deliverable is not a draft for discussion, but a complete intellectual delivery from its builder after thorough reflection.** Therefore, this is an official public read-only archive. No external PRs, issues or modifications are accepted.
+
+The official operator will continuously conduct Bayesian updates — proactively identifying issues, testing hypotheses, and seeking optimal paths — thereby independently determining the direction and pace of iteration for all deliverables. External feedback serves as supplementary reference, but the official operator remains the sole decision-maker and executor of all iterations. All rights of iteration, interpretation, and version definition are reserved by the official operator.
 
 ---
 

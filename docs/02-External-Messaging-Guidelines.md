@@ -61,7 +61,7 @@ QNLOO-SPL is a sovereign commercial value distribution framework with open sourc
 1. 对开发者：永久免费使用源码，合规商用按营收比例付费，中小团队零门槛，大厂合理反哺。
 2. 对企业：双许可架构权责清晰，梯度计费成本可控，跨法域司法保障降低侵权风险。
 3. 对行业：开创「开放+确权+分润」的全新数字资产许可模式，推动知识产权价值合理分配。
-
+>
 1. For developers: Source code is permanently free to use, compliant commercial use is paid proportionally to revenue, zero threshold for small and medium teams, and large enterprises give reasonable feedback.
 2. For enterprises: The dual-license architecture has clear rights and responsibilities, tiered billing with controllable costs, and cross-jurisdictional judicial protection reduces infringement risks.
 3. For the industry: It creates a brand-new digital asset licensing model of "openness + right confirmation + profit sharing", promoting the reasonable distribution of intellectual property value.
@@ -77,64 +77,76 @@ This project adopts the **QNLOO-SPL Sovereign Public License Paradigm**; compute
 ## 3. 分场景话术模板 / Scenario-Based Messaging Templates
 
 ### 3.1 开发者社区场景 / Developer Community Scenario
-*适用范围：GitHub 仓库简介、技术论坛、开源社群、技术分享会*
 
-> 这是一个采用 QNLOO-SPL 范式的数字资产项目。我们保留了 Apache 2.0 的宽松开源特性，所有源代码都可以自由使用、修改和分发；同时对协议文本、技术逻辑、专利等核心资产做了主权确权，设置了阶梯式的商用授权规则。
->
-> 个人学习、非商业使用永久免费；年营收 100 万以内的合规小微企业也可以免费商用；超出规模的商业主体按营收比例支付授权费，收益反哺项目持续迭代。
->
-> 我们还内置了分布式取证与吹哨人维权机制，大幅降低了知识产权维权的门槛，让创作者的劳动成果得到合理保护。
+> 适用范围：GitHub 仓库简介、技术论坛、开源社群、技术分享会 
 
-> This is a digital asset project adopting the QNLOO-SPL paradigm. We retain the permissive open-source nature of Apache 2.0, and all source code can be freely used, modified and distributed; at the same time, we have confirmed sovereign rights for core assets such as protocol text, technical logic and patents, and set up tiered commercial authorization rules.
->
-> Personal learning and non-commercial use are permanently free; compliant small and micro enterprises with annual revenue within RMB 1 million can also use it commercially for free; commercial entities exceeding the scale pay authorization fees in proportion to revenue, and the proceeds feed back into the project's continuous iteration.
->
-> We also have built-in distributed evidence collection and Qui Tam enforcement mechanisms, which greatly lower the threshold for intellectual property rights protection and allow creators' work to be reasonably protected.
+> Applicable Scope: GitHub repository introduction, technical forums, open source communities, technical sharing sessions
+
+这是一个采用 QNLOO-SPL 范式的数字资产项目。我们保留了 Apache 2.0 的宽松开源特性，所有源代码都可以自由使用、修改和分发；同时对协议文本、技术逻辑、专利等核心资产做了主权确权，设置了阶梯式的商用授权规则。
+
+个人学习、非商业使用永久免费；年营收 100 万以内的合规小微企业也可以免费商用；超出规模的商业主体按营收比例支付授权费，收益反哺项目持续迭代。
+
+我们还内置了分布式取证与吹哨人维权机制，大幅降低了知识产权维权的门槛，让创作者的劳动成果得到合理保护。
+
+This is a digital asset project adopting the QNLOO-SPL paradigm. We retain the permissive open-source nature of Apache 2.0, and all source code can be freely used, modified and distributed; at the same time, we have confirmed sovereign rights for core assets such as protocol text, technical logic and patents, and set up tiered commercial authorization rules.
+
+Personal learning and non-commercial use are permanently free; compliant small and micro enterprises with annual revenue within RMB 1 million can also use it commercially for free; commercial entities exceeding the scale pay authorization fees in proportion to revenue, and the proceeds feed back into the project's continuous iteration.
+
+We also have built-in distributed evidence collection and Qui Tam enforcement mechanisms, which greatly lower the threshold for intellectual property rights protection and allow creators' work to be reasonably protected.
 
 ### 3.2 商业合作与企业客户场景 / Commercial Cooperation & Enterprise Client Scenario
-*适用范围：商务对接、客户咨询、合作方案、招投标材料*
 
-> 本项目基于 QNLOO-SPL 范式构建，采用「源码开源 + 资产确权」的双许可架构，法律边界清晰，合规风险可控。
->
-> 授权成本与企业营收规模挂钩，小微企业零成本接入，中大型企业按比例付费，成本随业务规模阶梯增长，避免一次性大额授权支出，财务模型更健康。
->
-> 范式内置跨法域司法适配条款与梯度化违约金规则，配套分布式取证体系，能够有效应对全球范围内的知识产权侵权风险，保障商业使用的法律安全性。
->
-> 结算通道支持主权法定数字货币，资金流向全程可追溯，符合企业完税与合规审计要求。
+> 适用范围：商务对接、客户咨询、合作方案、招投标材料 
 
-> This project is built based on the QNLOO-SPL paradigm, adopting a dual-license architecture of "open source code + asset right confirmation", with clear legal boundaries and controllable compliance risks.
->
-> Authorization costs are linked to the enterprise's revenue scale. Small and micro enterprises have zero-cost access, and medium and large enterprises pay proportionally. Costs grow step by step with business scale, avoiding one-time large authorization expenses and enabling a healthier financial model.
->
-> The paradigm has built-in cross-jurisdictional judicial adaptation clauses and tiered liquidated damages rules, supported by a distributed evidence collection system, which can effectively respond to global intellectual property infringement risks and ensure the legal security of commercial use.
->
-> The settlement channel supports sovereign statutory digital currency, with full traceability of capital flows, meeting enterprise tax payment and compliance audit requirements.
+> Applicable Scope: Business negotiation, customer consultation, cooperation proposal, bidding documents
+
+本项目基于 QNLOO-SPL 范式构建，采用「源码开源 + 资产确权」的双许可架构，法律边界清晰，合规风险可控。
+
+授权成本与企业营收规模挂钩，小微企业零成本接入，中大型企业按比例付费，成本随业务规模阶梯增长，避免一次性大额授权支出，财务模型更健康。
+
+范式内置跨法域司法适配条款与梯度化违约金规则，配套分布式取证体系，能够有效应对全球范围内的知识产权侵权风险，保障商业使用的法律安全性。
+
+结算通道支持主权法定数字货币，资金流向全程可追溯，符合企业完税与合规审计要求。
+
+This project is built based on the QNLOO-SPL paradigm, adopting a dual-license architecture of "open source code + asset right confirmation", with clear legal boundaries and controllable compliance risks.
+
+Authorization costs are linked to the enterprise's revenue scale. Small and micro enterprises have zero-cost access, and medium and large enterprises pay proportionally. Costs grow step by step with business scale, avoiding one-time large authorization expenses and enabling a healthier financial model.
+
+The paradigm has built-in cross-jurisdictional judicial adaptation clauses and tiered liquidated damages rules, supported by a distributed evidence collection system, which can effectively respond to global intellectual property infringement risks and ensure the legal security of commercial use.
+
+The settlement channel supports sovereign statutory digital currency, with full traceability of capital flows, meeting enterprise tax payment and compliance audit requirements.
 
 ### 3.3 行业与政策交流场景 / Industry & Policy Communication Scenario
-*适用范围：行业峰会、园区交流、政策汇报、产业合作*
 
-> QNLOO-SPL 是我国原创的新一代数字资产许可范式，跳出了传统开源协议「完全免费、创作者零收益」的固有框架，也区别于海外公平代码协议「一刀切禁止商用」的对抗模式。
->
-> 它以「主权确权、梯度分润、分布式维权」为核心，既保障了技术代码的开放流通，又实现了知识产权价值的合理回流，能够有效解决当前开源产业「上游投入大、收益不匹配」的行业痛点，助力数字经济高质量发展。
->
-> 范式首次将法定数字货币作为全球许可的基准结算通道，推动数字人民币在知识产权授权场景的规模化落地，实现资金全链路可监管、可追溯，符合数字主权与知识产权强国的战略方向。
+> 适用范围：行业峰会、园区交流、政策汇报、产业合作
 
-> QNLOO-SPL is a new generation of original digital asset licensing paradigm from China. It breaks out of the inherent framework of traditional open-source licenses where "everything is free and creators earn nothing", and also differs from the confrontational model of overseas fair-code licenses that "blanket ban commercial use".
->
-> With "sovereign right confirmation, tiered profit sharing, and distributed enforcement" as its core, it not only ensures the open circulation of technical code, but also realizes the reasonable return of intellectual property value. It can effectively solve the industry pain point of the current open-source industry where "upstream investment is large but returns are mismatched", and help the high-quality development of the digital economy.
->
-> The paradigm is the first to use statutory digital currency as the benchmark settlement channel for global licensing, promoting the large-scale implementation of e-CNY in intellectual property authorization scenarios, realizing full-chain supervision and traceability of funds, and aligning with the strategic direction of digital sovereignty and building an intellectual property power.
+> Applicable Scope: Industry summits, park exchanges, policy reporting, industrial cooperation
+
+QNLOO-SPL 是我国原创的新一代数字资产许可范式，跳出了传统开源协议「完全免费、创作者零收益」的固有框架，也区别于海外公平代码协议「一刀切禁止商用」的对抗模式。
+
+它以「主权确权、梯度分润、分布式维权」为核心，既保障了技术代码的开放流通，又实现了知识产权价值的合理回流，能够有效解决当前开源产业「上游投入大、收益不匹配」的行业痛点，助力数字经济高质量发展。
+
+范式首次将法定数字货币作为全球许可的基准结算通道，推动数字人民币在知识产权授权场景的规模化落地，实现资金全链路可监管、可追溯，符合数字主权与知识产权强国的战略方向。
+
+QNLOO-SPL is a new generation of original digital asset licensing paradigm from China. It breaks out of the inherent framework of traditional open-source licenses where "everything is free and creators earn nothing", and also differs from the confrontational model of overseas fair-code licenses that "blanket ban commercial use".
+
+With "sovereign right confirmation, tiered profit sharing, and distributed enforcement" as its core, it not only ensures the open circulation of technical code, but also realizes the reasonable return of intellectual property value. It can effectively solve the industry pain point of the current open-source industry where "upstream investment is large but returns are mismatched", and help the high-quality development of the digital economy.
+
+The paradigm is the first to use statutory digital currency as the benchmark settlement channel for global licensing, promoting the large-scale implementation of e-CNY in intellectual property authorization scenarios, realizing full-chain supervision and traceability of funds, and aligning with the strategic direction of digital sovereignty and building an intellectual property power.
 
 ### 3.4 媒体与公众传播场景 / Media & Public Communication Scenario
-*适用范围：新闻稿、公众科普、行业评论、大众传播*
 
-> QNLOO-SPL 是一套全新的数字内容授权规则。简单来说，它让技术代码保持免费开放，让真正有商业价值的创意、逻辑、内容资产得到合理的收益回报。
->
-> 个人和小团队可以免费使用，不影响创新活力；赚钱的大企业按比例支付费用，反哺原创者继续创作。它试图在「完全免费的开源」和「完全封闭的商业软件」之间，找到一条更公平的中间道路。
+> 适用范围：新闻稿、公众科普、行业评论、大众传播
 
-> QNLOO-SPL is a brand-new set of digital content licensing rules. Simply put, it keeps technical code free and open, and allows creative, logical and content assets with real commercial value to receive reasonable returns.
->
-> Individuals and small teams can use it for free without affecting innovation vitality; large profitable enterprises pay fees proportionally to feed back to original creators to continue creating. It attempts to find a fairer middle path between "completely free open source" and "completely closed commercial software".
+> Applicable Scope: News releases, public science popularization, industry comments, mass communication
+
+QNLOO-SPL 是一套全新的数字内容授权规则。简单来说，它让技术代码保持免费开放，让真正有商业价值的创意、逻辑、内容资产得到合理的收益回报。
+
+个人和小团队可以免费使用，不影响创新活力；赚钱的大企业按比例支付费用，反哺原创者继续创作。它试图在「完全免费的开源」和「完全封闭的商业软件」之间，找到一条更公平的中间道路。
+
+QNLOO-SPL is a brand-new set of digital content licensing rules. Simply put, it keeps technical code free and open, and allows creative, logical and content assets with real commercial value to receive reasonable returns.
+
+Individuals and small teams can use it for free without affecting innovation vitality; large profitable enterprises pay fees proportionally to feed back to original creators to continue creating. It attempts to find a fairer middle path between "completely free open source" and "completely closed commercial software".
 
 ---
 
@@ -142,7 +154,7 @@ This project adopts the **QNLOO-SPL Sovereign Public License Paradigm**; compute
 
 ### Q1：QNLOO-SPL 是开源协议吗？ / Is QNLOO-SPL an open-source license?
 
-QNLOO-SPL 不属于传统意义上的开源协议，它属于全新的**主权价值协议（Sovereign Value Protocol）**品类，是一套源码开放的主权商事价值分配范式。传统开源协议核心解决代码的自由流通与协作效率问题，而主权价值协议则聚焦于生态治理与价值主权对齐。
+QNLOO-SPL 不属于传统意义上的开源协议，它属于全新的**主权价值协议（Sovereign Value Protocol）** 品类，是一套源码开放的主权商事价值分配范式。传统开源协议核心解决代码的自由流通与协作效率问题，而主权价值协议则聚焦于生态治理与价值主权对齐。
 
 在资产配置上，本协议支持双轨架构：其计算机源代码部分可选宽松开源（如 Apache License 2.0）以促进技术传播，亦可选择完全闭源专有以保护核心商业壁垒；无论源码形式如何，其商用运营行为、协议文本及创作资产，均统一接受主权商事许可规则管辖，实现创作者价值的公平分润。
 
@@ -173,6 +185,7 @@ The issuing entity of the paradigm is a legally tax-paying enterprise in China. 
 ## 5. 表述禁忌与红线 / Taboos & Red Lines
 
 对外传播中，严禁出现以下各类违规表述，所有对外文稿、演讲、社群发言、媒体采访均需遵守本约束。
+
 All the following non-compliant expressions are prohibited in external communications. All external documents, speeches, community posts and media interviews shall abide by these restrictions.
 
 ### 5.1 绝对化与夸大表述 / Absolute & Exaggerated Expressions

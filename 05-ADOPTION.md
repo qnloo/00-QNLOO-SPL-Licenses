@@ -85,7 +85,7 @@ Before release, confirm that: core legal clauses have not been privately deleted
 
 ## 3. 可修改范围与禁止边界 / Modification Scope & Restrictions
 
-### 3.1 允许自定义的内容 / 3.1 Permitted Customizations
+### 3.1 允许自定义的内容 / Permitted Customizations
 
 在保持范式核心框架不变的前提下，采用方可对以下内容进行自定义调整：
 1. 资产持有主体的名称、地址、官网等身份信息；
@@ -101,7 +101,7 @@ Under the premise of keeping the core framework of the paradigm unchanged, adopt
 4. Duration of the transition period and specific settlement rules;
 5. Supplementary descriptions and operational guidelines for the project itself.
 
-### 3.2 禁止修改的核心条款 / 3.2 Prohibited Modifications to Core Clauses
+### 3.2 禁止修改的核心条款 / Prohibited Modifications to Core Clauses
 
 为保障 QNLOO-SPL 范式的统一性与法律严谨性，以下核心条款不得私自删减、篡改或实质性变更：
 1. 双资产分层许可隔离的基础架构定义；
@@ -128,7 +128,7 @@ Projects that make substantive modifications to core clauses shall no longer bel
 
 ## 4. 标准标注与命名规范 / Standard Labeling & Naming Rules
 
-### 4.1 README 标准标注话术 / 4.1 Standard README Labeling Statement
+### 4.1 README 标准标注话术 / Standard README Labeling Statement
 
 推荐在项目 README 顶部许可说明处使用以下统一表述：
 
@@ -138,7 +138,7 @@ The following unified statement is recommended for use in the license descriptio
  
 > The digital creative assets and commercial operations of this project adopt the **QNLOO-SPL Sovereign Public License Paradigm**; computer source code is separately governed by the Apache License 2.0.
 
-### 4.2 仓库文件命名规范 / 4.2 Repository File Naming Rules
+### 4.2 仓库文件命名规范 / Repository File Naming Rules
 
 为保持范式体系的识别一致性，推荐采用以下命名规则：
 - 主许可文件：`LICENSE`（根目录，便于平台自动识别）

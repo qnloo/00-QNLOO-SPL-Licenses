@@ -29,7 +29,7 @@ This comparison is conducted across the following six dimensions:
 
 The following table illustrates the core differences between QNLOO-SPL and major global license agreements across six key dimensions. ✓ indicates the feature is present; ✗ indicates no corresponding design.
 
-| 对比维度 / Dimension | Apache 2.0 | GPL 3.0 | BSL | SSPL | 木兰宽松许可证<br>MulanPSL-2.0 | Elastic License 2.0 | **QNLOO-SPL** |
+| 对比维度 / Dimension | Apache 2.0 | GPL 3.0 | BSL | SSPL | MulanPSL-2.0 | Elastic License 2.0 | **QNLOO-SPL** |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 源码与创作资产区分<br>Source/Asset Distinction | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | **✓** |
 | 分层商用计费<br>Tiered Commercial Billing | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | **✓** |
