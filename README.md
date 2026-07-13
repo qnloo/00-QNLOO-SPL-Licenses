@@ -31,7 +31,73 @@ Taking the most widely used Apache 2.0 as a benchmark, the core differences are 
 
 ---
 
-## 2. 理论同构性：为什么这套范式值得信赖 / Theoretical Isomorphism: Why This Paradigm Is Trustworthy
+## 2. 仓库内容说明 / Repository Contents
+
+| 文件/目录 / File/Directory | 说明 / Description |
+| :--- | :--- |
+| `LICENSE` | 引导型多重许可主声明。显式声明双资产分层架构，强制熔断第三方自动化合规扫描，提供资产分流路由指引<br>Guided multi-license master notice. Explicitly declares the dual-asset architecture to force-fail third-party automated compliance scanners and provide routing guidance for asset segregation |
+| `LICENSE-QNLOO-SPL` | QNLOO-SPL v1.1 主权公开许可范式完整法律文本，适用于商事运营、创作类资产、价值分配与违约清算事项<br>Full legal text of QNLOO-SPL v1.1 Sovereign Public License Paradigm, applicable to commercial operations, creative assets, value distribution and default liquidation matters |
+| `LICENSE-APACHE` | Apache License 2.0 标准全文，全仓库群统一配置，专门对应所有源代码类资产<br>Standard full text of Apache License 2.0, uniformly configured across the repository group, dedicated to all source code assets |
+| `PATENTS` | 专利授权说明书，明确本体系相关专利的授权范围、适用场景与约束规则<br>Patent grant specification, defining the authorization scope, applicable scenarios and restriction rules of patents related to this system |
+| `04-COMPARISON.md` | 与全球主流许可协议的六维对比说明<br>Six-dimensional comparison with mainstream global license agreements |
+| `05-ADOPTION.md` | 第三方项目采用本范式的完整操作指南<br>Complete operation guide for third-party projects to adopt this paradigm |
+| `docs/` | 配套文档目录，涵盖范式标准规范、对外宣讲话术、双许可配置模板、法律条款释义、版本迭代记录<br>Supporting document directory covering paradigm specifications, external messaging guidelines, dual-license configuration templates, legal clause interpretation and version iteration logs |
+| `whitepapers/` | **主权价值协议白皮书官方档案馆**，存放品类宣言与理念阐释文档的中英文 PDF 定稿<br>**Sovereign Value Protocol Whitepaper Official Archive**, housing finalized PDF versions of the category declaration and conceptual exposition documents in both Chinese and English |
+| `glossary/` | **核心术语字典**，提供全体系标准术语的中英文 MD 源文件与 PDF 定稿，确保跨语种翻译的术语一致性<br>**Core Terminology Glossary**, providing MD source files and finalized PDF versions of standard terminology across the system in both Chinese and English, ensuring terminological consistency in cross-lingual translation |
+| `template/` | 通用项目复用模板，第三方替换主体信息后即可快速接入本范式<br>Universal project reuse template. Third parties can quickly access the paradigm after replacing entity information |
+| `archive/` | 历史版本归档目录，永久留存所有历史版本完整文件，可供追溯查阅<br>Historical version archive directory, permanently retaining complete files of all historical versions for traceability and reference |
+
+> 注：核心许可文件保留标准命名以适配平台自动识别，其余文件按数字前缀排序。
+
+> Note: Core license files retain standard naming to accommodate platform auto-recognition; other files are sorted by numerical prefix.
+
+QNLOO-SPL 范式不申请 OSI 开源认证。它独立于 MIT、Apache、GPL 等传统开源协议赛道，与 BSL、SSPL 等公平代码协议也存在根本性差异。
+
+The QNLOO-SPL paradigm does not seek OSI open-source certification. It operates independently of traditional open-source license tracks such as MIT, Apache, or GPL, and fundamentally differs from fair-code licenses such as BSL or SSPL.
+
+---
+
+## 3. 主权价值协议白皮书 / Sovereign Value Protocol Whitepaper
+
+**《主权价值：数字资产许可的第三品类与 AI 产业的新路径》** 是主权价值协议品类的官方白皮书，系统阐述了主权价值协议作为独立于开源与闭源的第三类数字资产许可品类的理论基础、核心制度与产业应用。
+
+***Sovereign Value: The Third Category of Digital Asset Licensing and a New Path for the AI Industry*** is the official whitepaper of the Sovereign Value Protocol category, systematically expounding the theoretical foundation, core institutions, and industrial applications of the Sovereign Value Protocol as a third category of digital asset licensing independent of open-source and closed-source.
+
+> 📖 在线阅读 / Read Online：
+> - 中文版 / Chinese：`whitepapers/zh/主权价值-白皮书-v1.1-zh.pdf`
+> - English Version：`whitepapers/en/Sovereign-Value-Whitepaper-v1.1-en.pdf`
+
+---
+
+## 4. 核心术语字典 / Core Terminology Glossary
+
+为确保全体系多语种翻译的术语一致性，本仓库提供中英文标准术语字典，覆盖白皮书全部核心概念的标准化定义。
+
+To ensure terminological consistency in multilingual translation across the entire system, this repository provides a standard bilingual terminology glossary, covering standardized definitions of all core concepts within the whitepaper.
+
+> 📖 在线阅读 / Read Online：
+> - 中文版 / Chinese：`glossary/zh/主权价值-术语字典-v1.1-zh.md`
+> - English Version：`glossary/en/Sovereign-Value-Glossary-v1.1-en.md`
+
+---
+
+## 5. 五大核心标志性特征 / Five Core Defining Features
+
+QNLOO-SPL 范式具备以下五项标志性特征，与全球所有现有许可协议形成清晰边界：
+
+The QNLOO-SPL paradigm possesses the following five defining features, establishing clear boundaries from all existing license agreements worldwide:
+
+ 特征 / Feature | 说明 / Description |
+| :--- | :--- |
+| **双资产分层许可隔离架构**<br>**Dual-Asset Tiered Licensing Isolation Architecture** | 源代码采用宽松开源协议自由开放；<br>文本、专利、音频、体系逻辑、商用运营行为单独受主权商事许可约束<br>Source code is freely available under a permissive open-source license; <br>textual, patent, audio, systemic logic, and commercial operational assets are separately governed by sovereign commercial licensing terms |
+| **阶梯式营收分层授权体系**<br>**Progressive Revenue-Based Tiered Authorization** | 个人/学术永久免费；<br>小微营收阈值内全豁免；<br>合规主体超额营收固定比例分润；<br>游离生态主体全额营收计费；<br>大厂产品线穿透核算<br>Permanent free use for individuals and academia; <br>full exemption for small-scale entities within revenue thresholds; <br>fixed-percentage revenue sharing for compliant entities with excess revenue; <br>full-revenue billing for off-chain entities; and enterprise product-line revenue penetration |
+| **主权法定数字货币结算机制**<br>**Sovereign Statutory CBDC Settlement Mechanism** | 以发行主体所属国家法定数字货币为全球基准结算通道，内置法定数字货币+过渡期兼容支付的双线支付规则，绑定本土企业完税与资金追溯合规义务<br>The statutory digital currency of the issuing entity's home country serves as the global benchmark settlement channel, with built-in dual-channel payment rules (CBDC + transition-compatible payment), binding compliance obligations for local tax payment and fund traceability |
+| **分布式社会化取证与梯度化吹哨悬赏分成**<br>**Distributed Socialized Evidence Collection & Tiered Qui Tam Bounty Sharing** | 开源被动式取证工具、链上侵权指纹存证；<br>恶意违约场景下合规主体营收清算义务覆盖连续三个完整会计年度；<br>吹哨悬赏金仅按查实后首个年度对应档位的补偿金计提，赏金权利预先让渡，跨法系自适应<br>Open-source passive forensic toolkits, on-chain infringement fingerprint recording; <br>revenue liquidation obligation for bad-faith breach covers three consecutive full fiscal years; <br>qui tam bounty is only calculated based on the compensation of the first verified year at the corresponding tier, with pre-assigned bounty rights and cross-jurisdictional adaptability |
+| **梯度化公允清算违约金规则**<br>**Tiered and Fairly Estimated Liquidated Damages Rules** | 区分无意疏漏与主观恶意逃逸两套赔付标准，违约金经完整法理论证为公允补偿而非惩罚性罚金，适配各国司法裁量标准<br>Two sets of compensation standards distinguishing inadvertent omissions from subjective bad-faith evasion, with liquidated damages fully legally reasoned as fair compensation rather than punitive penalties, suitable for judicial discretion across sovereign courts worldwide |
+
+---
+
+## 6. 理论同构性：为什么这套范式值得信赖 / Theoretical Isomorphism: Why This Paradigm Is Trustworthy
 
 QNLOO-SPL 不是一套凭空设计的法律规则，而是从千年鹿认知体系的底层方法论中自然生长出来的。它与《认知之河》体系共享同一套基因——价值协议的三公理与四阶段贝叶斯更新循环。
 
@@ -39,9 +105,9 @@ QNLOO-SPL is not a set of legal rules designed in a vacuum, but a natural outgro
 
 **同一基因，不同维度的生长**
 
-《认知之河》以“认知传递”为基因，解决的是个体如何在不确定性中做出高质量决策的问题。它的底层算法是四阶段认知循环——提出假设、设计验证、收集反馈、更新认知。这套基因让个体从迷茫走向觉醒，从知识的被动消费者变成认知的主动炼金者。
+《认知之河》以"认知传递"为基因，解决的是个体如何在不确定性中做出高质量决策的问题。它的底层算法是四阶段认知循环——提出假设、设计验证、收集反馈、更新认知。这套基因让个体从迷茫走向觉醒，从知识的被动消费者变成认知的主动炼金者。
 
-QNLOO-SPL 以“主权价值”为基因，解决的是数字资产价值如何公平分配的问题。它的底层算法同样是价值协议三公理 ——价值交换公理、不确定性公理、认知成本公理。双资产分层是价值交换断裂的修复，双层主权互惠是不确定性的锚点，分布式吹哨悬赏是认知成本的极致压缩。
+QNLOO-SPL 以"主权价值"为基因，解决的是数字资产价值如何公平分配的问题。它的底层算法同样是价值协议三公理 ——价值交换公理、不确定性公理、认知成本公理。双资产分层是价值交换断裂的修复，双层主权互惠是不确定性的锚点，分布式吹哨悬赏是认知成本的极致压缩。
 
 **Same Gene, Different Dimensions of Growth**
 
@@ -60,47 +126,7 @@ The same genetic code has grown into two complete, logically self-consistent, ec
 
 ---
 
-## 3. 五大核心标志性特征 / Five Core Defining Features
-
-QNLOO-SPL 范式具备以下五项标志性特征，与全球所有现有许可协议形成清晰边界：
-
-The QNLOO-SPL paradigm possesses the following five defining features, establishing clear boundaries from all existing license agreements worldwide:
-
- 特征 / Feature | 说明 / Description |
-| :--- | :--- |
-| **双资产分层许可隔离架构**<br>**Dual-Asset Tiered Licensing Isolation Architecture** | 源代码采用宽松开源协议自由开放；<br>文本、专利、音频、体系逻辑、商用运营行为单独受主权商事许可约束<br>Source code is freely available under a permissive open-source license; <br>textual, patent, audio, systemic logic, and commercial operational assets are separately governed by sovereign commercial licensing terms |
-| **阶梯式营收分层授权体系**<br>**Progressive Revenue-Based Tiered Authorization** | 个人/学术永久免费；<br>小微营收阈值内全豁免；<br>合规主体超额营收固定比例分润；<br>游离生态主体全额营收计费；<br>大厂产品线穿透核算<br>Permanent free use for individuals and academia; <br>full exemption for small-scale entities within revenue thresholds; <br>fixed-percentage revenue sharing for compliant entities with excess revenue; <br>full-revenue billing for off-chain entities; and enterprise product-line revenue penetration |
-| **主权法定数字货币结算机制**<br>**Sovereign Statutory CBDC Settlement Mechanism** | 以发行主体所属国家法定数字货币为全球基准结算通道，内置法定数字货币+过渡期兼容支付的双线支付规则，绑定本土企业完税与资金追溯合规义务<br>The statutory digital currency of the issuing entity's home country serves as the global benchmark settlement channel, with built-in dual-channel payment rules (CBDC + transition-compatible payment), binding compliance obligations for local tax payment and fund traceability |
-| **分布式社会化取证与梯度化吹哨悬赏分成**<br>**Distributed Socialized Evidence Collection & Tiered Qui Tam Bounty Sharing** | 开源被动式取证工具、链上侵权指纹存证；<br>恶意违约场景下合规主体营收清算义务覆盖连续三个完整会计年度；<br>吹哨悬赏金仅按查实后首个年度对应档位的补偿金计提，赏金权利预先让渡，跨法系自适应<br>Open-source passive forensic toolkits, on-chain infringement fingerprint recording; <br>revenue liquidation obligation for bad-faith breach covers three consecutive full fiscal years; <br>qui tam bounty is only calculated based on the compensation of the first verified year at the corresponding tier, with pre-assigned bounty rights and cross-jurisdictional adaptability |
-| **梯度化公允清算违约金规则**<br>**Tiered and Fairly Estimated Liquidated Damages Rules** | 区分无意疏漏与主观恶意逃逸两套赔付标准，违约金经完整法理论证为公允补偿而非惩罚性罚金，适配各国司法裁量标准<br>Two sets of compensation standards distinguishing inadvertent omissions from subjective bad-faith evasion, with liquidated damages fully legally reasoned as fair compensation rather than punitive penalties, suitable for judicial discretion across sovereign courts worldwide |
-
----
-
-## 4. 仓库内容说明 / Repository Contents
-
-| 文件/目录 / File/Directory | 说明 / Description |
-| :--- | :--- |
-| `LICENSE` | 引导型多重许可主声明。显式声明双资产分层架构，强制熔断第三方自动化合规扫描，提供资产分流路由指引<br>Guided multi-license master notice. Explicitly declares the dual-asset architecture to force-fail third-party automated compliance scanners and provide routing guidance for asset segregation |
-| `LICENSE-QNLOO-SPL` | QNLOO-SPL v1.1 主权公开许可范式完整法律文本，适用于商事运营、创作类资产、价值分配与违约清算事项<br>Full legal text of QNLOO-SPL v1.1 Sovereign Public License Paradigm, applicable to commercial operations, creative assets, value distribution and default liquidation matters |
-| `LICENSE-APACHE` | Apache License 2.0 标准全文，全仓库群统一配置，专门对应所有源代码类资产<br>Standard full text of Apache License 2.0, uniformly configured across the repository group, dedicated to all source code assets |
-| `PATENTS` | 专利授权说明书，明确本体系相关专利的授权范围、适用场景与约束规则<br>Patent grant specification, defining the authorization scope, applicable scenarios and restriction rules of patents related to this system |
-| `04-COMPARISON.md` | 与全球主流许可协议的六维对比说明<br>Six-dimensional comparison with mainstream global license agreements |
-| `05-ADOPTION.md` | 第三方项目采用本范式的完整操作指南<br>Complete operation guide for third-party projects to adopt this paradigm |
-| `docs/` | 配套文档目录，涵盖范式标准规范、对外宣讲话术、双许可配置模板、法律条款释义、版本迭代记录<br>Supporting document directory covering paradigm specifications, external messaging guidelines, dual-license configuration templates, legal clause interpretation and version iteration logs |
-| `template/` | 通用项目复用模板，第三方替换主体信息后即可快速接入本范式<br>Universal project reuse template. Third parties can quickly access the paradigm after replacing entity information |
-| `archive/` | 历史版本归档目录，永久留存所有历史版本完整文件，可供追溯查阅<br>Historical version archive directory, permanently retaining complete files of all historical versions for traceability and reference |
-
-> 注：核心许可文件保留标准命名以适配平台自动识别，其余文件按数字前缀排序。
-
-> Note: Core license files retain standard naming to accommodate platform auto-recognition; other files are sorted by numerical prefix.
-
-QNLOO-SPL 范式不申请 OSI 开源认证。它独立于 MIT、Apache、GPL 等传统开源协议赛道，与 BSL、SSPL 等公平代码协议也存在根本性差异。
-
-The QNLOO-SPL paradigm does not seek OSI open-source certification. It operates independently of traditional open-source license tracks such as MIT, Apache, or GPL, and fundamentally differs from fair-code licenses such as BSL or SSPL.
-
----
-
-## 5. 与全球现有许可的核心差异 / Key Differences from Existing Licenses
+## 7. 与全球现有许可的核心差异 / Key Differences from Existing Licenses
 
 下表从六个关键维度，展示 QNLOO-SPL 与全球主流许可协议的根本差异：
 
@@ -117,7 +143,7 @@ The following table illustrates the fundamental differences between QNLOO-SPL an
 
 ---
 
-## 6. 如何采用本范式 / How to Adopt This Paradigm
+## 8. 如何采用本范式 / How to Adopt This Paradigm
 
 任何企业、团队或个人，可按照以下步骤采用 QNLOO-SPL 范式：
 
@@ -133,7 +159,45 @@ Any enterprise, team, or individual may adopt the QNLOO-SPL paradigm by followin
 
 ---
 
-## 7. 版本说明 / Version Information
+## 9. 主权价值协议语义域名矩阵 / Sovereign Value Protocol Semantic Domain Matrix
+
+**说明**：千年鹿认知体系已在全球部署完整的主权价值协议语义域名矩阵，按协议维度划分为四大核心分类。每个核心概念均配备英文域名与拼音域名双轨入口，并部署别名防御矩阵，确保全球用户无论使用何种语言检索，均能精准触达权威定义页面。
+
+**Description**: The QNLOO cognition system has deployed a complete Sovereign Value Protocol semantic domain matrix globally, organized into four core categories by protocol dimension. Each core concept is equipped with dual-track access via both English and Pinyin domains, with alias defense matrices deployed, ensuring that global users can reach the authoritative definition page with precision regardless of the language used for search.
+
+#### 9.1 赛道定义与理念传播 / Philosophy & Dissemination
+
+| 术语 / Term | 英文域名 / English Domain | 拼音域名 / Pinyin Domain | 防御别名 / Alias Defense |
+| :--- | :--- | :--- | :--- |
+| 主权价值 / Sovereign Value | [`SovereignValue.org`](https://SovereignValue.org) | [`ZhuquanJiazhi.com`](https://ZhuquanJiazhi.com) | `SovereignValue.ai` |
+
+#### 9.2 核心架构与治理机制 / Core Architecture & Governance
+
+| 术语 / Term | 英文域名 / English Domain | 拼音域名 / Pinyin Domain |
+| :--- | :--- | :--- |
+| 双资产许可 / Dual-Asset License | [`DualAssetLicense.org`](https://DualAssetLicense.org) | [`ShuangzichanXuke.com`](https://ShuangzichanXuke.com) |
+| 分布式社会化取证 / Qui Tam Bounty | [`QuiTamBounty.org`](https://QuiTamBounty.org) | [`ChuishaorenXuanshang.com`](https://ChuishaorenXuanshang.com) |
+
+#### 9.3 协议标准与商业落地 / Standards & Commercialization
+
+| 术语 / Term | 英文域名 / English Domain | 拼音域名 / Pinyin Domain | 防御别名 / Alias Defense |
+| :--- | :--- | :--- | :--- |
+| 主权价值协议 / Sovereign Value Protocol | [`SovereignValueProtocol.org`](https://SovereignValueProtocol.org) | [`ZhuquanJiazhiXieyi.com`](https://ZhuquanJiazhiXieyi.com) | `SovereignValueProtocol.com` |
+| QNLOO-SPL | [`qnloo-spl.com`](https://qnloo-spl.com) | — | `qnloospl.com` |
+
+#### 9.4 生态身份与扩展 / Ecosystem Identity & Extension
+
+| 术语 / Term | 英文域名 / English Domain | 拼音域名 / Pinyin Domain |
+| :--- | :--- | :--- |
+| 主权节点 / Sovereign Nodes | [`SovereignNodes.org`](https://SovereignNodes.org) | [`ZhuquanJiedian.com`](https://ZhuquanJiedian.com) |
+
+> 以上域名均为千年鹿认知体系官方持有并部署的语义基础设施，承载对应术语的全球权威定义。
+>
+> All domains listed above are semantic infrastructure officially owned and deployed by the QNLOO cognition system, carrying the globally authoritative definitions of the corresponding terms.
+
+---
+
+## 10. 版本说明 / Version Information
 
 | 版本 / Version | 生效日期 / Effective Date | 说明 / Description |
 | :--- | :--- | :--- |
@@ -146,7 +210,7 @@ Version naming convention: QNLOO-SPL vX.Y. The latest version is permanently mai
 
 ---
 
-## 8. 官方生态入口 / Official Ecosystem Links
+## 11. 官方生态入口 / Official Ecosystem Links
 
 整个千年鹿认知体系由五大核心板块构成，覆盖规则范式、方法论与工具载体、理论体系、技术专利、工程实现五大层级，各板块底层逻辑完全同构。
 
@@ -162,7 +226,7 @@ The entire QNLOO cognition system consists of five core modules, covering five l
 
 ---
 
-## 9. 官方音乐专辑 / Official Music Album
+## 12. 官方音乐专辑 / Official Music Album
 
 千年鹿认知体系专属声音资产，与白皮书叙事完全同步发布。它是用声音写成的生命史诗，记录了个人认知成长从温柔孕育到淬炼成金、从觉醒到开创的完整英雄旅程。每一首曲目，都对应着白皮书叙事中的一个关键节点。
 
@@ -175,7 +239,7 @@ Exclusive audio asset of QNLOO, released synchronously with the white paper narr
 
 ---
 
-## 10. 联系与对接 / Contact & Inquiries
+## 13. 联系与对接 / Contact & Inquiries
 
 | 规划维度 | 对接规范与格式要求 |
 | :--- | :--- |
@@ -195,7 +259,7 @@ Exclusive audio asset of QNLOO, released synchronously with the white paper narr
 
 ---
 
-## 11. 官方社区与社交媒体 / Official Community & Social Media
+## 14. 官方社区与社交媒体 / Official Community & Social Media
 
 | 平台 / Platform | 账号名称 / Account Name | 直达链接 / Direct Link |
 | :--- | :--- | :--- |
@@ -208,7 +272,7 @@ Exclusive audio asset of QNLOO, released synchronously with the white paper narr
 
 ---
 
-## 12. 外部权限 / Contribution Policy
+## 15. 外部权限 / Contribution Policy
 
 **“发布即交付”——每一份交付成果都不是征求意见稿，而是构建者深思熟虑之后的完整思想交付。** 因此，本仓库为官方对外只读归档仓库，不接收任何外部提交的PR、Issue及修改贡献。
 
@@ -220,7 +284,7 @@ The official operator will continuously conduct Bayesian updates — proactively
 
 ---
 
-## 13. 克隆与下载说明 (Git LFS) / Clone & Download Instructions (Git LFS)
+## 16. 克隆与下载说明 (Git LFS) / Clone & Download Instructions (Git LFS)
 
 本仓库的 PDF 及多媒体交付物采用 **Git LFS (Large File Storage)** 进行版本管理。
 

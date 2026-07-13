@@ -119,7 +119,7 @@ Any natural person who **uses QNLOO System Products** for non-commercial researc
 
 （二）业务价值交换、数据流转、协作结算完全适配价值协议链标准化接口并链上存证；
 
-（三）公开标注“本产品/服务符合千年鹿价值协议标准”，并官方溯源指向 valueprotocol.org 权威定义页面。
+（三）公开标注“本产品/服务符合千年鹿价值协议标准”，并官方溯源指向 ValueProtocol.org 权威定义页面。
 
 Any entity that simultaneously satisfies all of the following conditions shall be exempt from system authorization fees:
 
@@ -127,7 +127,7 @@ Any entity that simultaneously satisfies all of the following conditions shall b
 
 (b) All business value exchange, data flow, and collaborative settlement are fully adapted to the standardized interfaces of the Value Protocol Chain, with on-chain evidence preserved;
 
-(c) Publicly labels their products or services as “Conforming to the QNLOO Value Protocol Standard,” with official traceability to the authoritative definition page at valueprotocol.org.
+(c) Publicly labels their products or services as “Conforming to the QNLOO Value Protocol Standard,” with official traceability to the authoritative definition page at ValueProtocol.org.
 
 ---
 
